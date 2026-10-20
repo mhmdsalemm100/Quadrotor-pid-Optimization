@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "runs": 360,
+  "evaluations": 1175040,
+  "pilot_runs": 144,
+  "pilot_evaluations": 470016,
+  "independently_recomputed_parameter_selection": [
+    {
+      "method": "GDA",
+      "selected_candidate": 2,
+      "mean_ranks": [
+        2.6666666666666665,
+        3.6666666666666665,
+        1.6666666666666667,
+        2.0
+      ],
+      "ties_for_first": 1
+    },
+    {
+      "method": "TA",
+      "selected_candidate": 0,
+      "mean_ranks": [
+        1.0,
+        4.0,
+        2.1666666666666665,
+        2.8333333333333335
+      ],
+      "ties_for_first": 1
+    },
+    {
+      "method": "ALNS",
+      "selected_candidate": 2,
+      "mean_ranks": [
+        2.3333333333333335,
+        2.5,
+        1.5,
+        3.6666666666666665
+      ],
+      "ties_for_first": 1
+    },
+    {
+      "method": "VND",
+      "selected_candidate": 0,
+      "mean_ranks": [
+        1.8333333333333333,
+        4.0,
+        1.8333333333333333,
+        2.3333333333333335
+      ],
+      "ties_for_first": 2
+    },
+    {
+      "method": "SBRS",
+      "selected_candidate": 0,
+      "mean_ranks": [
+        2.0,
+        2.5,
+        2.6666666666666665,
+        2.8333333333333335
+      ],
+      "ties_for_first": 1
+    },
+    {
+      "method": "PRW",
+      "selected_candidate": 2,
+      "mean_ranks": [
+        3.6666666666666665,
+        3.1666666666666665,
+        1.3333333333333333,
+        1.8333333333333333
+      ],
+      "ties_for_first": 1
+    }
+  ],
+  "checks": [
+    "frozen code hashes",
+    "exact unique evaluation budget",
+    "finite values and gain bounds",
+    "best-so-far archive",
+    "decoded gains",
+    "paired initialization identical to original benchmark",
+    "acceptance transition replay",
+    "PRW accepts every move and fixed proposal length away from reflected boundaries"
+  ]
+}

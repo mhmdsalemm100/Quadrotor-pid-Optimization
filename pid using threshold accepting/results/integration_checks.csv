@@ -1,0 +1,5 @@
+method,scenario,finite,numerical_guard_dt1ms,numerical_guard_dt05ms,max_angle_difference_deg,max_rate_difference_deg_s,max_settling_difference_s
+TA,roll_20deg,True,False,False,1.5993574188266148e-07,5.639786169691573e-06,0.0005000000000000004
+TA,pitch_20deg,True,False,False,8.477494230295894e-08,3.5472238338052277e-06,0.0005000000000000004
+TA,yaw_100dps,True,False,False,1.4819560767510169e-08,1.3444396744049045e-07,5.551115123125783e-17
+TA,train_plant6_axis2,True,False,False,6.717862639882752e-09,4.735954059558346e-08,5.551115123125783e-17

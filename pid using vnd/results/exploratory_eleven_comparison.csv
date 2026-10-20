@@ -1,0 +1,3 @@
+method,mode,median_mc_passes,all_300_controllers,median_boundary_passes,all_54_boundary_controllers,median_combined_passes,median_nominal_mean_settling_s,median_training_fitness,training_feasible_runs,additional_development_pilot
+VND,nominal,297.0,0,50.0,0,0.0,0.23224999999999998,0.05307382145336864,30,True
+VND,robust,300.0,28,53.0,4,0.0,0.26616666666666666,0.06852143730522472,28,True

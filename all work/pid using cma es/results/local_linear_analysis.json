@@ -1,0 +1,218 @@
+{
+  "baseline": {
+    "roll": {
+      "motor_command_to_torque_gain": 9.005072969085452,
+      "rate_plant_numerator": 426.78070943532947,
+      "rate_plant_denominator_s": [
+        0.02,
+        1.0,
+        0.0
+      ],
+      "lifted_period_s": 0.004,
+      "closed_loop_eigenvalues": [
+        {
+          "real": 0.0,
+          "imag": 0.0
+        },
+        {
+          "real": 1.1102230246251565e-16,
+          "imag": 0.0
+        },
+        {
+          "real": 0.8661635816744321,
+          "imag": 0.0
+        },
+        {
+          "real": 0.9809526523306928,
+          "imag": 0.050690808466042056
+        },
+        {
+          "real": 0.9809526523306928,
+          "imag": -0.050690808466042056
+        },
+        {
+          "real": 0.9841997363755934,
+          "imag": 0.0
+        }
+      ],
+      "spectral_radius": 0.9841997363755934,
+      "locally_stable": true
+    },
+    "pitch": {
+      "motor_command_to_torque_gain": 9.005072969085452,
+      "rate_plant_numerator": 411.1905465335823,
+      "rate_plant_denominator_s": [
+        0.02,
+        1.0,
+        0.0
+      ],
+      "lifted_period_s": 0.004,
+      "closed_loop_eigenvalues": [
+        {
+          "real": 0.0,
+          "imag": 0.0
+        },
+        {
+          "real": 0.0,
+          "imag": 0.0
+        },
+        {
+          "real": 0.8639736476148507,
+          "imag": 0.0
+        },
+        {
+          "real": 0.9821067494259645,
+          "imag": 0.049725905371353976
+        },
+        {
+          "real": 0.9821067494259645,
+          "imag": -0.049725905371353976
+        },
+        {
+          "real": 0.9842737199070466,
+          "imag": 0.0
+        }
+      ],
+      "spectral_radius": 0.9842737199070466,
+      "locally_stable": true
+    },
+    "yaw": {
+      "motor_command_to_torque_gain": 0.9112412813951999,
+      "rate_plant_numerator": 24.897302770360653,
+      "rate_plant_denominator_s": [
+        0.02,
+        1.0,
+        0.0
+      ],
+      "lifted_period_s": 0.004,
+      "closed_loop_eigenvalues": [
+        {
+          "real": 0.0,
+          "imag": 0.0
+        },
+        {
+          "real": 0.9070736718613248,
+          "imag": 0.019408254169634705
+        },
+        {
+          "real": 0.9070736718613248,
+          "imag": -0.019408254169634705
+        },
+        {
+          "real": 0.9999198735207891,
+          "imag": 0.0
+        }
+      ],
+      "spectral_radius": 0.9999198735207891,
+      "locally_stable": true
+    }
+  },
+  "CMA-ES": {
+    "roll": {
+      "motor_command_to_torque_gain": 9.005072969085452,
+      "rate_plant_numerator": 426.78070943532947,
+      "rate_plant_denominator_s": [
+        0.02,
+        1.0,
+        0.0
+      ],
+      "lifted_period_s": 0.004,
+      "closed_loop_eigenvalues": [
+        {
+          "real": 0.0,
+          "imag": 0.0
+        },
+        {
+          "real": -8.374558113238364e-17,
+          "imag": 0.0
+        },
+        {
+          "real": 0.9334121751168565,
+          "imag": 0.1942423826972706
+        },
+        {
+          "real": 0.9334121751168565,
+          "imag": -0.1942423826972706
+        },
+        {
+          "real": 0.9262006379951123,
+          "imag": 0.0
+        },
+        {
+          "real": 0.9987273987106268,
+          "imag": 0.0
+        }
+      ],
+      "spectral_radius": 0.9987273987106268,
+      "locally_stable": true
+    },
+    "pitch": {
+      "motor_command_to_torque_gain": 9.005072969085452,
+      "rate_plant_numerator": 411.1905465335823,
+      "rate_plant_denominator_s": [
+        0.02,
+        1.0,
+        0.0
+      ],
+      "lifted_period_s": 0.004,
+      "closed_loop_eigenvalues": [
+        {
+          "real": 0.0,
+          "imag": 0.0
+        },
+        {
+          "real": -1.5051985814318152e-16,
+          "imag": 0.0
+        },
+        {
+          "real": 0.9344797359290171,
+          "imag": 0.19197307772131342
+        },
+        {
+          "real": 0.9344797359290171,
+          "imag": -0.19197307772131342
+        },
+        {
+          "real": 0.9244983762859488,
+          "imag": 0.0
+        },
+        {
+          "real": 0.9987902233801108,
+          "imag": 0.0
+        }
+      ],
+      "spectral_radius": 0.9987902233801108,
+      "locally_stable": true
+    },
+    "yaw": {
+      "motor_command_to_torque_gain": 0.9112412813951999,
+      "rate_plant_numerator": 24.897302770360653,
+      "rate_plant_denominator_s": [
+        0.02,
+        1.0,
+        0.0
+      ],
+      "lifted_period_s": 0.004,
+      "closed_loop_eigenvalues": [
+        {
+          "real": 0.0,
+          "imag": 0.0
+        },
+        {
+          "real": 0.8678183142126098,
+          "imag": 0.0
+        },
+        {
+          "real": 0.9482569962172988,
+          "imag": 0.0
+        },
+        {
+          "real": 0.9990320967482105,
+          "imag": 0.0
+        }
+      ],
+      "spectral_radius": 0.9990320967482105,
+      "locally_stable": true
+    }
+  }
+}

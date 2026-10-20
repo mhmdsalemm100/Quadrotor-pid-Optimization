@@ -1,0 +1,13 @@
+{
+  "completed_runs": 150,
+  "unique_evaluations": 489600,
+  "training_simulations": 14688000,
+  "ledger_audits_passed": true,
+  "all_selected_fitnesses_recomputed": true,
+  "validated_tuned_controllers": 300,
+  "validation_cases_per_controller": 444,
+  "training_cases": 30,
+  "nominal_reference_cases": 6,
+  "tests_passed": 19,
+  "model_sha256": "12d97aa315326c919b79b7040a178bcf5c84fc1bcf3f2e133b17ffee84104be6"
+}

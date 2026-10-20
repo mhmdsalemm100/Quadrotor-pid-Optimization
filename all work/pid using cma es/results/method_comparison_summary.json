@@ -1,0 +1,65 @@
+{
+  "same_problem_configuration": true,
+  "methods": [
+    {
+      "method": "GA",
+      "best_fitness": 0.05226508591371648,
+      "mean_seed_fitness": 0.05256231720252801,
+      "std_seed_fitness": 0.00021939013277321674,
+      "min_unique_evaluations": 3024,
+      "max_unique_evaluations": 3035
+    },
+    {
+      "method": "PSO",
+      "best_fitness": 0.05181310024035224,
+      "mean_seed_fitness": 0.052123026116072446,
+      "std_seed_fitness": 0.0002240389540622489,
+      "min_unique_evaluations": 3264,
+      "max_unique_evaluations": 3264
+    },
+    {
+      "method": "CSO",
+      "best_fitness": 0.06216829916316375,
+      "mean_seed_fitness": 0.06289455517956855,
+      "std_seed_fitness": 0.0008855987554355139,
+      "min_unique_evaluations": 10884,
+      "max_unique_evaluations": 10891
+    },
+    {
+      "method": "DSA",
+      "best_fitness": 0.0527023006368179,
+      "mean_seed_fitness": 0.053368458471025663,
+      "std_seed_fitness": 0.00047109604080740705,
+      "min_unique_evaluations": 15055,
+      "max_unique_evaluations": 15580
+    },
+    {
+      "method": "CMA-ES",
+      "best_fitness": 0.05226415044430983,
+      "mean_seed_fitness": 0.05305584517060807,
+      "std_seed_fitness": 0.0005893228086689994,
+      "min_unique_evaluations": 3264,
+      "max_unique_evaluations": 3264
+    },
+    {
+      "method": "CMA-ES at 3264 evaluations",
+      "best_fitness": 0.05226415044430983,
+      "mean_seed_fitness": 0.05305584517060807,
+      "std_seed_fitness": 0.0005893228086689994,
+      "min_unique_evaluations": 3264,
+      "max_unique_evaluations": 3264
+    }
+  ],
+  "budget_candidate_seed": 47,
+  "budget_candidate_gains": {
+    "roll_outer_K": 15.92718041983634,
+    "roll_inner_Kp_equivalent": 0.15782826477321826,
+    "roll_inner_Ki_equivalent": 0.0028898109968422546,
+    "pitch_outer_K": 16.219622306251395,
+    "pitch_inner_Kp_equivalent": 0.16060490633818308,
+    "pitch_inner_Ki_equivalent": 0.0004147566147601958,
+    "yaw_Kp": 0.38840111279229916,
+    "yaw_Ki": 0.09167659154073728
+  },
+  "note": "Evaluation budgets differ across methods. Budget snapshot is retrospective and is not a separate seeded run."
+}

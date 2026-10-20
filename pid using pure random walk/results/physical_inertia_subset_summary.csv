@@ -1,0 +1,7 @@
+mode,method,group,cases_per_controller,median_passes,controllers_passing_all,controllers
+nominal,PRW,single_axis_mc,280,275.5,11,30
+nominal,PRW,one_at_a_time,54,52.0,3,30
+nominal,PRW,combined_stress,80,0.0,0,30
+robust,PRW,single_axis_mc,280,280.0,26,30
+robust,PRW,one_at_a_time,54,54.0,28,30
+robust,PRW,combined_stress,80,0.0,0,30

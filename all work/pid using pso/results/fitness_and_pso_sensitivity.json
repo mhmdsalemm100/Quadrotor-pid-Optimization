@@ -1,0 +1,308 @@
+[
+  {
+    "name": "settling_priority",
+    "own_fitness": 0.06524582771018493,
+    "common_main_fitness": 0.05181310024035218,
+    "gains": [
+      11.41006449555343,
+      0.06815339223347232,
+      0.0024963430184610142,
+      16.33487229574894,
+      0.14772558084873472,
+      0.06341315767786776,
+      0.38660810807925455,
+      0.1034789660177678
+    ],
+    "settings": {
+      "study_name": "Equation-based PSO attitude tuning of AttitudeControl_Sim",
+      "integration_dt_s": 0.001,
+      "controller_dt_s": 0.001,
+      "mixer_dt_s": 0.004,
+      "pre_step_s": 0.2,
+      "response_horizon_s": 3.0,
+      "settling_band_fraction": 0.02,
+      "minimum_final_hold_s": 0.25,
+      "max_overshoot_fraction": 0.1,
+      "max_final_error_fraction": 0.02,
+      "max_motor_clipping_fraction": 0.05,
+      "minimum_motor_speed_rad_s": 0.0,
+      "fixed_discrete_pole": 0.9997,
+      "fitness_weights": {
+        "settling": 0.7,
+        "rise": 0.1,
+        "itae": 0.15,
+        "iae": 0.05
+      },
+      "worst_case_weight": 0.3,
+      "effort_weight": 0.01,
+      "seeds": [
+        101
+      ],
+      "workers": 4,
+      "parameters": [
+        {
+          "name": "roll_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Kp",
+          "lower": 0.01,
+          "upper": 1.0,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Ki",
+          "lower": 0.0001,
+          "upper": 0.5,
+          "scale": "log"
+        }
+      ],
+      "swarm_size": 32,
+      "iterations": 24,
+      "inertia_start": 0.9,
+      "inertia_end": 0.4,
+      "cognitive_coefficient": 1.7,
+      "social_coefficient": 1.7,
+      "velocity_limit": 0.2,
+      "initial_velocity_limit": 0.1,
+      "boundary_damping": 0.5
+    },
+    "note": "Warm-started exploratory study; not used to select main exported gains."
+  },
+  {
+    "name": "error_priority",
+    "own_fitness": 0.030725406249197444,
+    "common_main_fitness": 0.053510627364776825,
+    "gains": [
+      11.372817237466728,
+      0.0680607146889618,
+      0.0025053723016148807,
+      15.387330076794177,
+      0.1414318685865065,
+      0.05575322478026613,
+      0.3848550423177272,
+      0.05421233844443128
+    ],
+    "settings": {
+      "study_name": "Equation-based PSO attitude tuning of AttitudeControl_Sim",
+      "integration_dt_s": 0.001,
+      "controller_dt_s": 0.001,
+      "mixer_dt_s": 0.004,
+      "pre_step_s": 0.2,
+      "response_horizon_s": 3.0,
+      "settling_band_fraction": 0.02,
+      "minimum_final_hold_s": 0.25,
+      "max_overshoot_fraction": 0.1,
+      "max_final_error_fraction": 0.02,
+      "max_motor_clipping_fraction": 0.05,
+      "minimum_motor_speed_rad_s": 0.0,
+      "fixed_discrete_pole": 0.9997,
+      "fitness_weights": {
+        "settling": 0.2,
+        "rise": 0.1,
+        "itae": 0.5,
+        "iae": 0.2
+      },
+      "worst_case_weight": 0.3,
+      "effort_weight": 0.01,
+      "seeds": [
+        101
+      ],
+      "workers": 4,
+      "parameters": [
+        {
+          "name": "roll_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Kp",
+          "lower": 0.01,
+          "upper": 1.0,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Ki",
+          "lower": 0.0001,
+          "upper": 0.5,
+          "scale": "log"
+        }
+      ],
+      "swarm_size": 32,
+      "iterations": 24,
+      "inertia_start": 0.9,
+      "inertia_end": 0.4,
+      "cognitive_coefficient": 1.7,
+      "social_coefficient": 1.7,
+      "velocity_limit": 0.2,
+      "initial_velocity_limit": 0.1,
+      "boundary_damping": 0.5
+    },
+    "note": "Warm-started exploratory study; not used to select main exported gains."
+  },
+  {
+    "name": "social_bias",
+    "own_fitness": 0.05181310024035218,
+    "common_main_fitness": 0.05181310024035218,
+    "gains": [
+      11.41006449555343,
+      0.06815339223347232,
+      0.0024963430184610142,
+      16.33487229574894,
+      0.14772558084873472,
+      0.06341315767786776,
+      0.38660810807925455,
+      0.1034789660177678
+    ],
+    "settings": {
+      "study_name": "Equation-based PSO attitude tuning of AttitudeControl_Sim",
+      "integration_dt_s": 0.001,
+      "controller_dt_s": 0.001,
+      "mixer_dt_s": 0.004,
+      "pre_step_s": 0.2,
+      "response_horizon_s": 3.0,
+      "settling_band_fraction": 0.02,
+      "minimum_final_hold_s": 0.25,
+      "max_overshoot_fraction": 0.1,
+      "max_final_error_fraction": 0.02,
+      "max_motor_clipping_fraction": 0.05,
+      "minimum_motor_speed_rad_s": 0.0,
+      "fixed_discrete_pole": 0.9997,
+      "fitness_weights": {
+        "settling": 0.45,
+        "rise": 0.2,
+        "itae": 0.25,
+        "iae": 0.1
+      },
+      "worst_case_weight": 0.3,
+      "effort_weight": 0.01,
+      "seeds": [
+        101
+      ],
+      "workers": 4,
+      "parameters": [
+        {
+          "name": "roll_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Kp",
+          "lower": 0.01,
+          "upper": 1.0,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Ki",
+          "lower": 0.0001,
+          "upper": 0.5,
+          "scale": "log"
+        }
+      ],
+      "swarm_size": 32,
+      "iterations": 24,
+      "inertia_start": 0.9,
+      "inertia_end": 0.4,
+      "cognitive_coefficient": 1.2,
+      "social_coefficient": 2.2,
+      "velocity_limit": 0.2,
+      "initial_velocity_limit": 0.1,
+      "boundary_damping": 0.5
+    },
+    "note": "Warm-started exploratory study; not used to select main exported gains."
+  }
+]

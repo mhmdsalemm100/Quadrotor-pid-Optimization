@@ -1,0 +1,8 @@
+Python-model candidate; assumed controller timing 1 ms and mixer timing 4 ms; not verified in Simulink.
+Selection: best; seed 107
+Roll outer gain: 10.966995947902848
+Pitch outer gain: 11.696559321934414
+Roll Discrete Transfer Fcn: {"numerator": [0.0662099909525413, -0.06614326442055128], "denominator": [1.0, -0.9997]}
+Pitch Discrete Transfer Fcn: {"numerator": [0.07215314607752693, -0.07212958753475428], "denominator": [1.0, -0.9997]}
+Yaw PI: {"Kp": 0.3871533273415961, "Ki": 0.0957933937413811, "Kd": 0.0}
+Keep the source saturation locations, limits and forward-Euler yaw integrator.

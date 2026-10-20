@@ -1,0 +1,23 @@
+{
+  "runs": 150,
+  "unique_evaluations_per_run": 3264,
+  "total_unique_evaluations": 489600,
+  "all_initial_populations_and_scores_match": true,
+  "all_ledgers_have_exact_budget_and_unique_keys": true,
+  "all_exported_fitnesses_recomputed": true,
+  "best_archive_monotonic": true,
+  "main_median_winner": "PSO",
+  "statistics": {
+    "friedman_statistic": 106.48000000000002,
+    "friedman_asymptotic_p": 4.0971462283759373e-22,
+    "within_seed_permutation_p": 4.999750012499375e-05,
+    "permutations": 20000,
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 7102026,
+    "paired": true,
+    "caveat": "Inference concerns optimizer randomness on this one fixed problem. Wilcoxon uses symmetric paired-difference null; intervals are descriptive percentile bootstrap and not multiplicity-adjusted."
+  },
+  "unit_tests_passed": 17,
+  "pdf_pages": 22,
+  "pdf_visual_review": "All 22 rendered pages reviewed"
+}

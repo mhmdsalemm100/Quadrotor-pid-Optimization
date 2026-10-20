@@ -1,0 +1,83 @@
+Python candidate; selection uses training fitness only; controller 1 ms, mixer 4 ms; not Simulink verified. Joint-boundary acceptance: 1280/1536; these finite tests are not a continuous-range guarantee.
+{
+  "method": "DSA",
+  "selection": "best",
+  "seed": 118,
+  "training_fitness": 0.06650325721236684,
+  "gains": {
+    "roll_outer_K": 14.695398869453117,
+    "roll_inner_Kp_equivalent": 0.15094047936714844,
+    "roll_inner_Ki_equivalent": 0.03633397996107889,
+    "pitch_outer_K": 14.296843387607005,
+    "pitch_inner_Kp_equivalent": 0.15569336782032067,
+    "pitch_inner_Ki_equivalent": 0.06049151569053182,
+    "yaw_Kp": 0.3546510069351363,
+    "yaw_Ki": 0.07220570949808292
+  },
+  "roll_pitch_discrete": {
+    "roll": {
+      "numerator": [
+        0.15097681334710952,
+        -0.1508951972233383
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    },
+    "pitch": {
+      "numerator": [
+        0.1557538593360112,
+        -0.15564665980997458
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    }
+  },
+  "yaw_PI": {
+    "Kp": 0.3546510069351363,
+    "Ki": 0.07220570949808292
+  },
+  "validation": {
+    "mode": "robust",
+    "method": "DSA",
+    "seed": 118,
+    "robust_training_fitness": 0.06650325721236684,
+    "training_passes": 30,
+    "nominal_fitness": 0.0568281955201771,
+    "nominal_passes": 6,
+    "nominal_mean_settling_s": 0.2501666666666667,
+    "nominal_worst_settling_s": 0.35700000000000004,
+    "single_axis_mc_passes": 300,
+    "single_axis_mc_worst_settling_s": 0.439,
+    "single_axis_mc_worst_violation": 0.0,
+    "one_at_a_time_passes": 53,
+    "one_at_a_time_worst_settling_s": 0.411,
+    "one_at_a_time_worst_violation": 0.02380949035242666,
+    "combined_stress_passes": 0,
+    "combined_stress_worst_settling_s": 3.0,
+    "combined_stress_worst_violation": 13.942946479201751
+  },
+  "status": "Python candidate; selection uses training fitness only; controller 1 ms, mixer 4 ms; not Simulink verified. Joint-boundary acceptance: 1280/1536; these finite tests are not a continuous-range guarantee.",
+  "joint_boundary_audit": {
+    "mode": "robust",
+    "method": "DSA",
+    "selection": "best",
+    "seed": 118,
+    "passes": 1280,
+    "cases": 1536,
+    "physical_passes": 1120,
+    "physical_cases": 1344,
+    "worst_violation": 0.09580971857005022,
+    "overshoot_failures": 0,
+    "final_error_failures": 0,
+    "settling_failures": 0,
+    "motor_clipping_failures": 0,
+    "negative_speed_failures": 256,
+    "cross_axis_failures": 0,
+    "bank_limit_failures": 0,
+    "numerical_failures": 0
+  }
+}

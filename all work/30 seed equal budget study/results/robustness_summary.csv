@@ -1,0 +1,6 @@
+method,median_single_axis_passes,min_single_axis_passes,max_single_axis_passes,controllers_passing_all_60,total_combined_passes_out_of_900
+GA,59.0,58,60,14,0
+PSO,59.0,58,60,13,0
+CSO,60.0,46,60,17,0
+DSA,60.0,54,60,18,0
+CMA-ES,60.0,59,60,21,0

@@ -1,0 +1,13 @@
+scenario,controller,minimum_motor_speed_rad_s
+yaw_100dps,baseline,-11.544123962616652
+roll_max35,CMA-ES,-74.55951780072546
+pitch_max35,CMA-ES,-77.97616761537256
+yaw_max200,baseline,-16.267522702152412
+yaw_max200,CMA-ES,-16.266937754151225
+coupled_10_8_40,CMA-ES,-9.75250311491899
+heavier_slower,CMA-ES,-58.31912353764309
+lighter_faster,CMA-ES,-46.782729191011335
+throttle_0.50,CMA-ES,-121.1000779333984
+source_startup35,CMA-ES,-74.55951780072525
+controller_4ms,CMA-ES,-9.727293806772032
+mixer_1ms,CMA-ES,-1.410699893514019

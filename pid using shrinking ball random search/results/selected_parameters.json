@@ -1,0 +1,27 @@
+{
+  "GDA": {
+    "step": 0.12,
+    "water_slack": 0.05
+  },
+  "TA": {
+    "step": 0.03,
+    "threshold0": 0.02
+  },
+  "ALNS": {
+    "repair_sigma": 0.16,
+    "reaction": 0.1,
+    "threshold0": 0.05,
+    "segment": 64
+  },
+  "VND": {
+    "radius": 0.05,
+    "neighborhood_order": "large_to_small"
+  },
+  "SBRS": {
+    "radius0": 0.15,
+    "radius_ratio": 0.01
+  },
+  "PRW": {
+    "step": 0.12
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "friedman_statistic": 106.48000000000002,
+  "friedman_asymptotic_p": 4.0971462283759373e-22,
+  "within_seed_permutation_p": 4.999750012499375e-05,
+  "permutations": 20000,
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 7102026,
+  "paired": true,
+  "caveat": "Inference concerns optimizer randomness on this one fixed problem. Wilcoxon uses symmetric paired-difference null; intervals are descriptive percentile bootstrap and not multiplicity-adjusted."
+}

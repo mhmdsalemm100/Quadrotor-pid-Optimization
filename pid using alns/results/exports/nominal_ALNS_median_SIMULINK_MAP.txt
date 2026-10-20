@@ -1,0 +1,86 @@
+{
+  "mode": "nominal",
+  "method": "ALNS",
+  "selection": "median",
+  "seed": 122,
+  "training_fitness": 0.05277557092680699,
+  "gains": {
+    "roll_outer_K": 16.24125054023915,
+    "roll_inner_Kp_equivalent": 0.15709725297909113,
+    "roll_inner_Ki_equivalent": 0.000304641614262063,
+    "pitch_outer_K": 15.330807163972015,
+    "pitch_inner_Kp_equivalent": 0.1664100106554626,
+    "pitch_inner_Ki_equivalent": 0.0003593705159122737,
+    "yaw_Kp": 0.390658627189436,
+    "yaw_Ki": 0.0659498844622259
+  },
+  "roll_pitch_discrete": {
+    "roll": {
+      "numerator": [
+        0.1570975576207054,
+        -0.1570501238031974
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    },
+    "pitch": {
+      "numerator": [
+        0.1664103700259785,
+        -0.16636008765226595
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    }
+  },
+  "yaw_PI": {
+    "Kp": 0.390658627189436,
+    "Ki": 0.0659498844622259
+  },
+  "validation": {
+    "mode": "nominal",
+    "method": "ALNS",
+    "seed": 122,
+    "robust_training_fitness": 1054.282666765082,
+    "training_passes": 25,
+    "nominal_fitness": 0.05277557092680699,
+    "nominal_passes": 6,
+    "nominal_mean_settling_s": 0.23550000000000001,
+    "nominal_worst_settling_s": 0.334,
+    "single_axis_mc_passes": 298,
+    "single_axis_mc_worst_settling_s": 0.414,
+    "single_axis_mc_worst_violation": 0.03484566411442032,
+    "one_at_a_time_passes": 48,
+    "one_at_a_time_worst_settling_s": 0.39899999999999997,
+    "one_at_a_time_worst_violation": 0.10331012336332579,
+    "combined_stress_passes": 0,
+    "combined_stress_worst_settling_s": 3.0,
+    "combined_stress_worst_violation": 14.040178505940183
+  },
+  "joint_boundary_audit": {
+    "mode": "nominal",
+    "method": "ALNS",
+    "selection": "median",
+    "seed": 122,
+    "passes": 832,
+    "cases": 1536,
+    "physical_passes": 704,
+    "physical_cases": 1344,
+    "worst_violation": 0.3459540629672217,
+    "overshoot_failures": 64,
+    "final_error_failures": 0,
+    "settling_failures": 0,
+    "motor_clipping_failures": 0,
+    "negative_speed_failures": 640,
+    "cross_axis_failures": 0,
+    "bank_limit_failures": 0,
+    "numerical_failures": 0
+  },
+  "controller_dt_s": 0.001,
+  "mixer_dt_s": 0.004,
+  "selection_rule": "training fitness only; median is nearest actual seed, ties by seed",
+  "status": "Offline Python candidate. Not verified in Simulink, HIL, or flight. Finite uncertainty tests are not a continuous-range guarantee."
+}

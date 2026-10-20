@@ -1,0 +1,6 @@
+scenario,controller,minimum_motor_speed_rad_s
+yaw_100dps,baseline,-11.544123962616652
+pitch_max35,PSO,-77.97616761537256
+yaw_max200,baseline,-16.267522702152412
+yaw_max200,PSO,-16.266937754151225
+throttle_0.50,PSO,-63.32070744999492

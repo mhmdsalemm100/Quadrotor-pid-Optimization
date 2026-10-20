@@ -1,0 +1,9 @@
+UNCERTAINTY-FOCUSED CANDIDATE; SAME TIMING ASSUMPTIONS AS NOMINAL
+Gain2 (roll outer): 14.3956020505
+Gain1 (pitch outer): 10.8708207378
+Roll Discrete Transfer Fcn2: numerator=[0.14496925271346062, -0.14492299656242588], denominator=[1.0, -0.9997]
+Pitch Discrete Transfer Fcn3: numerator=[0.06798301188313445, -0.06796142406619074], denominator=[1.0, -0.9997]
+Kp_YAW_AngleRate=0.368226110002
+Ki_YAW_AngleRate=0.0867008384462
+Kd_YAW_AngleRate=0
+Separate candidate for comparison, not a validated universal controller. See report for combined-axis failures.

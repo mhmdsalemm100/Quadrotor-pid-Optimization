@@ -1,4 +1,4 @@
-# Only source, configuration, dependencies and Markdown documentation are eligible.
+# Source, documentation, numerical data and figures only.
 *
 !*/
 !*.py
@@ -11,21 +11,38 @@
 !requirements*.txt
 !/CITATION.cff
 !/.gitignore
-# Never publish generated outputs, papers, reference datasets or local environments.
-results*/
+!**/results/**/*.csv
+!**/results/**/*.json
+!**/results/**/*.npz
+!**/results/**/*.json.gz
+!**/results/**/*.png
+!**/results/**/*.svg
+!**/results/**/*SIMULINK*.txt
+!**/results/**/*PARAMETER*.txt
+!**/*_reference/**/*.json
+!**/*_reference/**/*.csv
+!**/*_reference/**/*.npz
+!**/reference_benchmark/**/*.json
+!**/reference_benchmark/**/*.csv
+!**/reference_benchmark/**/*.npz
+!/docs/*.csv
+!/docs/*.json
+# Exclude unpublished papers, manuscripts, rendered reports and packages.
+*.pdf
+*.html
+*.htm
+*.docx
+*.tex
+*.zip
+*.xlsx
 reports/
-figures/
-plots/
-plot_data/
-traces/
-runs/
-references/
-refrences/
-*_reference/
-reference_benchmark/
-30_seed_equal_budget/
-version*/
+papers/
+manuscripts/
 MDPI_Manuscript_LaTeX/
+refrences/
+version*/
+results_quick/
+results_new/
 __pycache__/
 .venv/
 venv/
@@ -34,3 +51,11 @@ slprj/
 .env*
 *.key
 *.pem
+execution*.json
+progress.json
+pdf_pages.json
+report_quality_check.json
+manuscript_preservation.json
+visual_qa.json
+pipeline_status.json
+final_audit.json

@@ -1,0 +1,7 @@
+{
+  "complete": true,
+  "controllers": 360,
+  "heldout_cases_per_controller": 444,
+  "corner_controllers": 25,
+  "corner_cases_per_controller": 1536
+}

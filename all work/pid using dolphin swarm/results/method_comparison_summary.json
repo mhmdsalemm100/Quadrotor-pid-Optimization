@@ -1,0 +1,57 @@
+{
+  "same_problem_configuration": true,
+  "methods": [
+    {
+      "method": "GA",
+      "best_fitness": 0.05226508591371648,
+      "mean_seed_fitness": 0.05256231720252801,
+      "std_seed_fitness": 0.00021939013277321674,
+      "min_unique_evaluations": 3024,
+      "max_unique_evaluations": 3035
+    },
+    {
+      "method": "PSO",
+      "best_fitness": 0.05181310024035224,
+      "mean_seed_fitness": 0.052123026116072446,
+      "std_seed_fitness": 0.0002240389540622489,
+      "min_unique_evaluations": 3264,
+      "max_unique_evaluations": 3264
+    },
+    {
+      "method": "CSO",
+      "best_fitness": 0.06216829916316375,
+      "mean_seed_fitness": 0.06289455517956855,
+      "std_seed_fitness": 0.0008855987554355139,
+      "min_unique_evaluations": 10884,
+      "max_unique_evaluations": 10891
+    },
+    {
+      "method": "DSA",
+      "best_fitness": 0.0527023006368179,
+      "mean_seed_fitness": 0.053368458471025663,
+      "std_seed_fitness": 0.00047109604080740705,
+      "min_unique_evaluations": 15055,
+      "max_unique_evaluations": 15580
+    },
+    {
+      "method": "DSA at 3264 evaluations",
+      "best_fitness": 0.05502375058577675,
+      "mean_seed_fitness": 0.05991390519789674,
+      "std_seed_fitness": 0.005793966925563602,
+      "min_unique_evaluations": 3264,
+      "max_unique_evaluations": 3264
+    }
+  ],
+  "budget_candidate_seed": 11,
+  "budget_candidate_gains": {
+    "roll_outer_K": 15.035759281246278,
+    "roll_inner_Kp_equivalent": 0.12699933944643546,
+    "roll_inner_Ki_equivalent": 0.18449485141096159,
+    "pitch_outer_K": 15.909535285657912,
+    "pitch_inner_Kp_equivalent": 0.10310186675524909,
+    "pitch_inner_Ki_equivalent": 0.0025633238551281976,
+    "yaw_Kp": 0.3856777757176675,
+    "yaw_Ki": 0.08985119715878925
+  },
+  "note": "Full DSA uses more evaluations. Budget snapshot is retrospective and is not a separate seeded run."
+}

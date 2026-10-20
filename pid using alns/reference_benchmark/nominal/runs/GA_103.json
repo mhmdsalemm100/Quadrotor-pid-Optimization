@@ -1,0 +1,354 @@
+{
+  "method": "GA",
+  "seed": 103,
+  "budget": 3264,
+  "unique_evaluations": 3264,
+  "proposals_including_final_batch": 3520,
+  "fitness": 0.05231351990800042,
+  "gains": [
+    16.48498578928608,
+    0.13888021738229642,
+    0.009214001276585466,
+    11.082577265807549,
+    0.06973918283066284,
+    0.018019797661221214,
+    0.3847518878021883,
+    0.10016941029469115
+  ],
+  "initial_population_sha256": "73a031674556310c84b5ad5281fb2aa64f0675092a9a8c7d61d85a18b3513af1",
+  "seconds": 12.602268900023773,
+  "last_iteration": 54,
+  "stop": "strict budget; final batch may be partial",
+  "history": [
+    {
+      "iteration": 0,
+      "evaluations": 64,
+      "best": 1004.7015755373513,
+      "proposals": 64
+    },
+    {
+      "iteration": 1,
+      "evaluations": 122,
+      "best": 0.09691304323621905,
+      "proposals": 128
+    },
+    {
+      "iteration": 2,
+      "evaluations": 182,
+      "best": 0.09691304323621905,
+      "proposals": 192
+    },
+    {
+      "iteration": 3,
+      "evaluations": 242,
+      "best": 0.08508702719386806,
+      "proposals": 256
+    },
+    {
+      "iteration": 4,
+      "evaluations": 301,
+      "best": 0.08508702719386806,
+      "proposals": 320
+    },
+    {
+      "iteration": 5,
+      "evaluations": 361,
+      "best": 0.08309743680706885,
+      "proposals": 384
+    },
+    {
+      "iteration": 6,
+      "evaluations": 421,
+      "best": 0.07549045160726899,
+      "proposals": 448
+    },
+    {
+      "iteration": 7,
+      "evaluations": 481,
+      "best": 0.07374608340867994,
+      "proposals": 512
+    },
+    {
+      "iteration": 8,
+      "evaluations": 540,
+      "best": 0.06866524249923527,
+      "proposals": 576
+    },
+    {
+      "iteration": 9,
+      "evaluations": 600,
+      "best": 0.06782804637768981,
+      "proposals": 640
+    },
+    {
+      "iteration": 10,
+      "evaluations": 660,
+      "best": 0.06601892434722237,
+      "proposals": 704
+    },
+    {
+      "iteration": 11,
+      "evaluations": 719,
+      "best": 0.06601892434722237,
+      "proposals": 768
+    },
+    {
+      "iteration": 12,
+      "evaluations": 779,
+      "best": 0.06601892434722237,
+      "proposals": 832
+    },
+    {
+      "iteration": 13,
+      "evaluations": 838,
+      "best": 0.06430580310407003,
+      "proposals": 896
+    },
+    {
+      "iteration": 14,
+      "evaluations": 898,
+      "best": 0.06248158549497935,
+      "proposals": 960
+    },
+    {
+      "iteration": 15,
+      "evaluations": 958,
+      "best": 0.05792006898351465,
+      "proposals": 1024
+    },
+    {
+      "iteration": 16,
+      "evaluations": 1017,
+      "best": 0.05792006898351465,
+      "proposals": 1088
+    },
+    {
+      "iteration": 17,
+      "evaluations": 1076,
+      "best": 0.05792006898351465,
+      "proposals": 1152
+    },
+    {
+      "iteration": 18,
+      "evaluations": 1135,
+      "best": 0.057028547773655874,
+      "proposals": 1216
+    },
+    {
+      "iteration": 19,
+      "evaluations": 1195,
+      "best": 0.057028547773655874,
+      "proposals": 1280
+    },
+    {
+      "iteration": 20,
+      "evaluations": 1254,
+      "best": 0.057028547773655874,
+      "proposals": 1344
+    },
+    {
+      "iteration": 21,
+      "evaluations": 1314,
+      "best": 0.057028547773655874,
+      "proposals": 1408
+    },
+    {
+      "iteration": 22,
+      "evaluations": 1373,
+      "best": 0.057028547773655874,
+      "proposals": 1472
+    },
+    {
+      "iteration": 23,
+      "evaluations": 1432,
+      "best": 0.057028547773655874,
+      "proposals": 1536
+    },
+    {
+      "iteration": 24,
+      "evaluations": 1492,
+      "best": 0.05672931179781968,
+      "proposals": 1600
+    },
+    {
+      "iteration": 25,
+      "evaluations": 1551,
+      "best": 0.05672931179781968,
+      "proposals": 1664
+    },
+    {
+      "iteration": 26,
+      "evaluations": 1609,
+      "best": 0.05672606654269255,
+      "proposals": 1728
+    },
+    {
+      "iteration": 27,
+      "evaluations": 1667,
+      "best": 0.05672606654269255,
+      "proposals": 1792
+    },
+    {
+      "iteration": 28,
+      "evaluations": 1726,
+      "best": 0.05634212492048341,
+      "proposals": 1856
+    },
+    {
+      "iteration": 29,
+      "evaluations": 1785,
+      "best": 0.05601072437421637,
+      "proposals": 1920
+    },
+    {
+      "iteration": 30,
+      "evaluations": 1845,
+      "best": 0.054430216614793976,
+      "proposals": 1984
+    },
+    {
+      "iteration": 31,
+      "evaluations": 1905,
+      "best": 0.054430216614793976,
+      "proposals": 2048
+    },
+    {
+      "iteration": 32,
+      "evaluations": 1965,
+      "best": 0.054430216614793976,
+      "proposals": 2112
+    },
+    {
+      "iteration": 33,
+      "evaluations": 2025,
+      "best": 0.054430216614793976,
+      "proposals": 2176
+    },
+    {
+      "iteration": 34,
+      "evaluations": 2084,
+      "best": 0.054430216614793976,
+      "proposals": 2240
+    },
+    {
+      "iteration": 35,
+      "evaluations": 2144,
+      "best": 0.054430216614793976,
+      "proposals": 2304
+    },
+    {
+      "iteration": 36,
+      "evaluations": 2203,
+      "best": 0.054430216614793976,
+      "proposals": 2368
+    },
+    {
+      "iteration": 37,
+      "evaluations": 2263,
+      "best": 0.05393659181779705,
+      "proposals": 2432
+    },
+    {
+      "iteration": 38,
+      "evaluations": 2323,
+      "best": 0.05393659181779705,
+      "proposals": 2496
+    },
+    {
+      "iteration": 39,
+      "evaluations": 2382,
+      "best": 0.05393659181779705,
+      "proposals": 2560
+    },
+    {
+      "iteration": 40,
+      "evaluations": 2441,
+      "best": 0.05393659181779705,
+      "proposals": 2624
+    },
+    {
+      "iteration": 41,
+      "evaluations": 2500,
+      "best": 0.05393659181779705,
+      "proposals": 2688
+    },
+    {
+      "iteration": 42,
+      "evaluations": 2560,
+      "best": 0.05393659181779705,
+      "proposals": 2752
+    },
+    {
+      "iteration": 43,
+      "evaluations": 2620,
+      "best": 0.05366688780798078,
+      "proposals": 2816
+    },
+    {
+      "iteration": 44,
+      "evaluations": 2680,
+      "best": 0.05366688780798078,
+      "proposals": 2880
+    },
+    {
+      "iteration": 45,
+      "evaluations": 2739,
+      "best": 0.053126537717242364,
+      "proposals": 2944
+    },
+    {
+      "iteration": 46,
+      "evaluations": 2798,
+      "best": 0.053126537717242364,
+      "proposals": 3008
+    },
+    {
+      "iteration": 47,
+      "evaluations": 2857,
+      "best": 0.05231351990800042,
+      "proposals": 3072
+    },
+    {
+      "iteration": 48,
+      "evaluations": 2917,
+      "best": 0.05231351990800042,
+      "proposals": 3136
+    },
+    {
+      "iteration": 49,
+      "evaluations": 2976,
+      "best": 0.05231351990800042,
+      "proposals": 3200
+    },
+    {
+      "iteration": 50,
+      "evaluations": 3035,
+      "best": 0.05231351990800042,
+      "proposals": 3264
+    },
+    {
+      "iteration": 51,
+      "evaluations": 3095,
+      "best": 0.05231351990800042,
+      "proposals": 3328
+    },
+    {
+      "iteration": 52,
+      "evaluations": 3153,
+      "best": 0.05231351990800042,
+      "proposals": 3392
+    },
+    {
+      "iteration": 53,
+      "evaluations": 3213,
+      "best": 0.05231351990800042,
+      "proposals": 3456
+    },
+    {
+      "iteration": 54,
+      "evaluations": 3264,
+      "best": 0.05231351990800042,
+      "proposals": 3520
+    }
+  ]
+}

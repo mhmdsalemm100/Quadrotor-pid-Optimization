@@ -1,0 +1,8 @@
+{
+  "friedman_statistic": 92.82666666666671,
+  "permutation_p": 4.999750012499375e-05,
+  "permutations": 20000,
+  "bootstrap_resamples": 10000,
+  "seed": 7102026,
+  "notes": "Inference over optimizer seeds on one fixed problem. Wilcoxon assumes symmetric paired differences. CI not multiplicity adjusted."
+}

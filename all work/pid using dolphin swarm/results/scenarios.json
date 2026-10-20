@@ -1,0 +1,266 @@
+{
+  "training": [
+    {
+      "name": "roll_5deg",
+      "target": [
+        5,
+        0,
+        0
+      ],
+      "group": "training"
+    },
+    {
+      "name": "roll_20deg",
+      "target": [
+        20,
+        0,
+        0
+      ],
+      "group": "training"
+    },
+    {
+      "name": "pitch_5deg",
+      "target": [
+        0,
+        5,
+        0
+      ],
+      "group": "training"
+    },
+    {
+      "name": "pitch_20deg",
+      "target": [
+        0,
+        20,
+        0
+      ],
+      "group": "training"
+    },
+    {
+      "name": "yaw_30dps",
+      "target": [
+        0,
+        0,
+        30
+      ],
+      "group": "training"
+    },
+    {
+      "name": "yaw_100dps",
+      "target": [
+        0,
+        0,
+        100
+      ],
+      "group": "training"
+    }
+  ],
+  "validation": [
+    {
+      "name": "roll_minus12",
+      "target": [
+        -12,
+        0,
+        0
+      ],
+      "group": "held_out"
+    },
+    {
+      "name": "pitch_minus12",
+      "target": [
+        0,
+        -12,
+        0
+      ],
+      "group": "held_out"
+    },
+    {
+      "name": "yaw_minus60",
+      "target": [
+        0,
+        0,
+        -60
+      ],
+      "group": "held_out"
+    },
+    {
+      "name": "roll_max35",
+      "target": [
+        35,
+        0,
+        0
+      ],
+      "group": "held_out"
+    },
+    {
+      "name": "pitch_max35",
+      "target": [
+        0,
+        35,
+        0
+      ],
+      "group": "held_out"
+    },
+    {
+      "name": "yaw_max200",
+      "target": [
+        0,
+        0,
+        200
+      ],
+      "group": "held_out"
+    },
+    {
+      "name": "coupled_10_8_40",
+      "target": [
+        10,
+        8,
+        40
+      ],
+      "group": "held_out"
+    },
+    {
+      "name": "heavier_slower",
+      "target": [
+        12,
+        8,
+        40
+      ],
+      "plant": [
+        0.024265,
+        0.025184999999999996,
+        0.042089999999999995,
+        0.225,
+        9.944999999999999e-06,
+        1.6011e-07,
+        0.0035,
+        0.0039,
+        0.0034,
+        0.0001287,
+        0.026000000000000002,
+        1148.0,
+        -141.4
+      ],
+      "group": "uncertainty"
+    },
+    {
+      "name": "lighter_faster",
+      "target": [
+        12,
+        8,
+        40
+      ],
+      "plant": [
+        0.017935,
+        0.018615,
+        0.03111,
+        0.225,
+        1.2155e-05,
+        1.9569e-07,
+        0.0035,
+        0.0039,
+        0.0034,
+        0.0001287,
+        0.013999999999999999,
+        1148.0,
+        -141.4
+      ],
+      "group": "uncertainty"
+    },
+    {
+      "name": "throttle_0.50",
+      "target": [
+        12,
+        8,
+        40
+      ],
+      "throttle": 0.5,
+      "group": "operating_point"
+    },
+    {
+      "name": "throttle_0.72",
+      "target": [
+        12,
+        8,
+        40
+      ],
+      "throttle": 0.72,
+      "group": "operating_point"
+    },
+    {
+      "name": "torque_pulse",
+      "target": [
+        10,
+        0,
+        0
+      ],
+      "pulse_axis": 0,
+      "pulse_amplitude": 0.03,
+      "group": "disturbance"
+    },
+    {
+      "name": "measurement_perturbation",
+      "target": [
+        10,
+        0,
+        0
+      ],
+      "noise_amplitude": 0.001,
+      "group": "noise"
+    },
+    {
+      "name": "source_startup35",
+      "target": [
+        35,
+        0,
+        0
+      ],
+      "startup": true,
+      "pre_step": 1.0,
+      "horizon": 9.0,
+      "group": "source_startup"
+    },
+    {
+      "name": "controller_4ms",
+      "target": [
+        10,
+        8,
+        40
+      ],
+      "control_dt": 0.004,
+      "group": "timing"
+    },
+    {
+      "name": "mixer_1ms",
+      "target": [
+        10,
+        8,
+        40
+      ],
+      "mixer_dt": 0.001,
+      "group": "timing"
+    },
+    {
+      "name": "inner_roll30",
+      "target": [
+        30,
+        0,
+        0
+      ],
+      "inner": true,
+      "horizon": 1.5,
+      "group": "inner_loop"
+    },
+    {
+      "name": "inner_pitch30",
+      "target": [
+        0,
+        30,
+        0
+      ],
+      "inner": true,
+      "horizon": 1.5,
+      "group": "inner_loop"
+    }
+  ]
+}

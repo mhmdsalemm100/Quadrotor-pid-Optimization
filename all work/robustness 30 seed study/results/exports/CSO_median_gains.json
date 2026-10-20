@@ -1,0 +1,82 @@
+{
+  "method": "CSO",
+  "selection": "median",
+  "seed": 115,
+  "training_fitness": 0.08607850274748287,
+  "gains": {
+    "roll_outer_K": 9.297844655035986,
+    "roll_inner_Kp_equivalent": 0.16568615408883924,
+    "roll_inner_Ki_equivalent": 0.00046198136151130107,
+    "pitch_outer_K": 7.034606413337855,
+    "pitch_inner_Kp_equivalent": 0.05485357556043438,
+    "pitch_inner_Ki_equivalent": 0.021807762313700966,
+    "yaw_Kp": 0.3254408710694043,
+    "yaw_Ki": 0.041048489639266224
+  },
+  "roll_pitch_discrete": {
+    "roll": {
+      "numerator": [
+        0.16568661607020074,
+        -0.1656364482426126
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    },
+    "pitch": {
+      "numerator": [
+        0.054875383322748085,
+        -0.054837119487766255
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    }
+  },
+  "yaw_PI": {
+    "Kp": 0.3254408710694043,
+    "Ki": 0.041048489639266224
+  },
+  "validation": {
+    "mode": "robust",
+    "method": "CSO",
+    "seed": 115,
+    "robust_training_fitness": 0.08607850274748287,
+    "training_passes": 30,
+    "nominal_fitness": 0.07995176030165549,
+    "nominal_passes": 6,
+    "nominal_mean_settling_s": 0.39033333333333337,
+    "nominal_worst_settling_s": 0.428,
+    "single_axis_mc_passes": 300,
+    "single_axis_mc_worst_settling_s": 0.525,
+    "single_axis_mc_worst_violation": 0.0,
+    "one_at_a_time_passes": 54,
+    "one_at_a_time_worst_settling_s": 0.49200000000000005,
+    "one_at_a_time_worst_violation": 0.0,
+    "combined_stress_passes": 0,
+    "combined_stress_worst_settling_s": 3.0,
+    "combined_stress_worst_violation": 24.20034111332227
+  },
+  "status": "Python candidate; selection uses training fitness only; controller 1 ms, mixer 4 ms; not Simulink verified. Joint-boundary acceptance: 1536/1536; these finite tests are not a continuous-range guarantee.",
+  "joint_boundary_audit": {
+    "mode": "robust",
+    "method": "CSO",
+    "selection": "median",
+    "seed": 115,
+    "passes": 1536,
+    "cases": 1536,
+    "physical_passes": 1344,
+    "physical_cases": 1344,
+    "worst_violation": 0.0,
+    "overshoot_failures": 0,
+    "final_error_failures": 0,
+    "settling_failures": 0,
+    "motor_clipping_failures": 0,
+    "negative_speed_failures": 0,
+    "cross_axis_failures": 0,
+    "bank_limit_failures": 0,
+    "numerical_failures": 0
+  }
+}

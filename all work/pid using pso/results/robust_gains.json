@@ -1,0 +1,329 @@
+{
+  "gains": {
+    "roll_outer_K": 14.120952001867916,
+    "roll_inner_Kp_equivalent": 0.13485178174650797,
+    "roll_inner_Ki_equivalent": 0.10931142037668827,
+    "pitch_outer_K": 14.901619942464132,
+    "pitch_inner_Kp_equivalent": 0.1403204033908306,
+    "pitch_inner_Ki_equivalent": 0.011254572238220885,
+    "yaw_Kp": 0.37415864627882506,
+    "yaw_Ki": 0.09034083828970091
+  },
+  "transfer_functions": {
+    "roll": {
+      "numerator": [
+        0.13496109316688465,
+        -0.13481132621198402
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    },
+    "pitch": {
+      "numerator": [
+        0.14033165796306882,
+        -0.14027830726981336
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    }
+  },
+  "yaw": {
+    "Kp": 0.37415864627882506,
+    "Ki": 0.09034083828970091,
+    "Kd": 0.0
+  },
+  "robust_training_fitness": 0.06398806746825145,
+  "nominal_training_fitness": 0.054989791609497234,
+  "training_scenarios": [
+    {
+      "name": "roll_5deg",
+      "target": [
+        5,
+        0,
+        0
+      ],
+      "group": "training"
+    },
+    {
+      "name": "roll_20deg",
+      "target": [
+        20,
+        0,
+        0
+      ],
+      "group": "training"
+    },
+    {
+      "name": "pitch_5deg",
+      "target": [
+        0,
+        5,
+        0
+      ],
+      "group": "training"
+    },
+    {
+      "name": "pitch_20deg",
+      "target": [
+        0,
+        20,
+        0
+      ],
+      "group": "training"
+    },
+    {
+      "name": "yaw_30dps",
+      "target": [
+        0,
+        0,
+        30
+      ],
+      "group": "training"
+    },
+    {
+      "name": "yaw_100dps",
+      "target": [
+        0,
+        0,
+        100
+      ],
+      "group": "training"
+    },
+    {
+      "name": "robust_0_slow",
+      "target": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "plant": [
+        0.024265,
+        0.025184999999999996,
+        0.042089999999999995,
+        0.225,
+        9.944999999999999e-06,
+        1.6011e-07,
+        0.0035,
+        0.0039,
+        0.0034,
+        0.0001287,
+        0.026000000000000002,
+        1148.0,
+        -141.4
+      ],
+      "group": "robust_training"
+    },
+    {
+      "name": "robust_0_fast",
+      "target": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "plant": [
+        0.017935,
+        0.018615,
+        0.03111,
+        0.225,
+        1.2155e-05,
+        1.9569e-07,
+        0.0035,
+        0.0039,
+        0.0034,
+        0.0001287,
+        0.013999999999999999,
+        1148.0,
+        -141.4
+      ],
+      "group": "robust_training"
+    },
+    {
+      "name": "robust_1_slow",
+      "target": [
+        0.0,
+        20.0,
+        0.0
+      ],
+      "plant": [
+        0.024265,
+        0.025184999999999996,
+        0.042089999999999995,
+        0.225,
+        9.944999999999999e-06,
+        1.6011e-07,
+        0.0035,
+        0.0039,
+        0.0034,
+        0.0001287,
+        0.026000000000000002,
+        1148.0,
+        -141.4
+      ],
+      "group": "robust_training"
+    },
+    {
+      "name": "robust_1_fast",
+      "target": [
+        0.0,
+        20.0,
+        0.0
+      ],
+      "plant": [
+        0.017935,
+        0.018615,
+        0.03111,
+        0.225,
+        1.2155e-05,
+        1.9569e-07,
+        0.0035,
+        0.0039,
+        0.0034,
+        0.0001287,
+        0.013999999999999999,
+        1148.0,
+        -141.4
+      ],
+      "group": "robust_training"
+    },
+    {
+      "name": "robust_2_slow",
+      "target": [
+        0.0,
+        0.0,
+        100.0
+      ],
+      "plant": [
+        0.024265,
+        0.025184999999999996,
+        0.042089999999999995,
+        0.225,
+        9.944999999999999e-06,
+        1.6011e-07,
+        0.0035,
+        0.0039,
+        0.0034,
+        0.0001287,
+        0.026000000000000002,
+        1148.0,
+        -141.4
+      ],
+      "group": "robust_training"
+    },
+    {
+      "name": "robust_2_fast",
+      "target": [
+        0.0,
+        0.0,
+        100.0
+      ],
+      "plant": [
+        0.017935,
+        0.018615,
+        0.03111,
+        0.225,
+        1.2155e-05,
+        1.9569e-07,
+        0.0035,
+        0.0039,
+        0.0034,
+        0.0001287,
+        0.013999999999999999,
+        1148.0,
+        -141.4
+      ],
+      "group": "robust_training"
+    }
+  ],
+  "configuration": {
+    "study_name": "Equation-based PSO attitude tuning of AttitudeControl_Sim",
+    "integration_dt_s": 0.001,
+    "controller_dt_s": 0.001,
+    "mixer_dt_s": 0.004,
+    "pre_step_s": 0.2,
+    "response_horizon_s": 3.0,
+    "settling_band_fraction": 0.02,
+    "minimum_final_hold_s": 0.25,
+    "max_overshoot_fraction": 0.1,
+    "max_final_error_fraction": 0.02,
+    "max_motor_clipping_fraction": 0.05,
+    "minimum_motor_speed_rad_s": 0.0,
+    "fixed_discrete_pole": 0.9997,
+    "fitness_weights": {
+      "settling": 0.45,
+      "rise": 0.2,
+      "itae": 0.25,
+      "iae": 0.1
+    },
+    "worst_case_weight": 0.3,
+    "effort_weight": 0.01,
+    "seeds": [
+      71,
+      89
+    ],
+    "workers": 4,
+    "parameters": [
+      {
+        "name": "roll_outer_K",
+        "lower": 1.0,
+        "upper": 30.0,
+        "scale": "log"
+      },
+      {
+        "name": "roll_inner_Kp_equivalent",
+        "lower": 0.005,
+        "upper": 0.35,
+        "scale": "log"
+      },
+      {
+        "name": "roll_inner_Ki_equivalent",
+        "lower": 0.0001,
+        "upper": 1.5,
+        "scale": "log"
+      },
+      {
+        "name": "pitch_outer_K",
+        "lower": 1.0,
+        "upper": 30.0,
+        "scale": "log"
+      },
+      {
+        "name": "pitch_inner_Kp_equivalent",
+        "lower": 0.005,
+        "upper": 0.35,
+        "scale": "log"
+      },
+      {
+        "name": "pitch_inner_Ki_equivalent",
+        "lower": 0.0001,
+        "upper": 1.5,
+        "scale": "log"
+      },
+      {
+        "name": "yaw_Kp",
+        "lower": 0.01,
+        "upper": 1.0,
+        "scale": "log"
+      },
+      {
+        "name": "yaw_Ki",
+        "lower": 0.0001,
+        "upper": 0.5,
+        "scale": "log"
+      }
+    ],
+    "swarm_size": 48,
+    "iterations": 35,
+    "inertia_start": 0.9,
+    "inertia_end": 0.4,
+    "cognitive_coefficient": 1.7,
+    "social_coefficient": 1.7,
+    "velocity_limit": 0.2,
+    "initial_velocity_limit": 0.1,
+    "boundary_damping": 0.5
+  },
+  "status": "Separate uncertainty-focused single-axis candidate; no guarantee on combined-axis maneuvers."
+}

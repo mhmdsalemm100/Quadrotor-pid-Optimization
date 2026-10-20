@@ -1,0 +1,83 @@
+Python candidate; selection uses training fitness only; controller 1 ms, mixer 4 ms; not Simulink verified. Joint-boundary acceptance: 1344/1536; these finite tests are not a continuous-range guarantee.
+{
+  "method": "PSO",
+  "selection": "median",
+  "seed": 116,
+  "training_fitness": 0.0658212854197488,
+  "gains": {
+    "roll_outer_K": 14.615122573164992,
+    "roll_inner_Kp_equivalent": 0.13798856552637873,
+    "roll_inner_Ki_equivalent": 0.05750414249675055,
+    "pitch_outer_K": 14.575943603687946,
+    "pitch_inner_Kp_equivalent": 0.12556864063755033,
+    "pitch_inner_Ki_equivalent": 0.0003367875187685654,
+    "yaw_Kp": 0.35321233761162796,
+    "yaw_Ki": 0.07741144804610339
+  },
+  "roll_pitch_discrete": {
+    "roll": {
+      "numerator": [
+        0.13804606966887548,
+        -0.13794716895672082
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    },
+    "pitch": {
+      "numerator": [
+        0.1255689774250691,
+        -0.12553097004535907
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    }
+  },
+  "yaw_PI": {
+    "Kp": 0.35321233761162796,
+    "Ki": 0.07741144804610339
+  },
+  "validation": {
+    "mode": "robust",
+    "method": "PSO",
+    "seed": 116,
+    "robust_training_fitness": 0.0658212854197488,
+    "training_passes": 30,
+    "nominal_fitness": 0.05748261460671635,
+    "nominal_passes": 6,
+    "nominal_mean_settling_s": 0.25733333333333336,
+    "nominal_worst_settling_s": 0.35400000000000004,
+    "single_axis_mc_passes": 300,
+    "single_axis_mc_worst_settling_s": 1.296,
+    "single_axis_mc_worst_violation": 0.0,
+    "one_at_a_time_passes": 53,
+    "one_at_a_time_worst_settling_s": 0.407,
+    "one_at_a_time_worst_violation": 0.02212705788664368,
+    "combined_stress_passes": 0,
+    "combined_stress_worst_settling_s": 3.0,
+    "combined_stress_worst_violation": 13.93923231885793
+  },
+  "status": "Python candidate; selection uses training fitness only; controller 1 ms, mixer 4 ms; not Simulink verified. Joint-boundary acceptance: 1344/1536; these finite tests are not a continuous-range guarantee.",
+  "joint_boundary_audit": {
+    "mode": "robust",
+    "method": "PSO",
+    "selection": "median",
+    "seed": 116,
+    "passes": 1344,
+    "cases": 1536,
+    "physical_passes": 1184,
+    "physical_cases": 1344,
+    "worst_violation": 0.0915554130016299,
+    "overshoot_failures": 0,
+    "final_error_failures": 0,
+    "settling_failures": 0,
+    "motor_clipping_failures": 0,
+    "negative_speed_failures": 192,
+    "cross_axis_failures": 0,
+    "bank_limit_failures": 0,
+    "numerical_failures": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "tests": [
+    {
+      "scope": "new_six",
+      "mode": "nominal",
+      "friedman_statistic": 114.24761904761908,
+      "permutation_p": 4.999750012499375e-05,
+      "permutations": 20000
+    },
+    {
+      "scope": "new_six",
+      "mode": "robust",
+      "friedman_statistic": 92.32380952380959,
+      "permutation_p": 4.999750012499375e-05,
+      "permutations": 20000
+    },
+    {
+      "scope": "exploratory_eleven",
+      "mode": "nominal",
+      "friedman_statistic": 245.64242424242434,
+      "permutation_p": 4.999750012499375e-05,
+      "permutations": 20000
+    },
+    {
+      "scope": "exploratory_eleven",
+      "mode": "robust",
+      "friedman_statistic": 202.0727272727272,
+      "permutation_p": 4.999750012499375e-05,
+      "permutations": 20000
+    }
+  ],
+  "bootstrap_resamples": 10000,
+  "seed": 12102026,
+  "inference": "Across optimization seeds on this single model. Each scope/regime has its own Holm family. Wilcoxon assumes symmetric paired differences. Bootstrap confidence intervals are not multiplicity-adjusted.",
+  "exploratory_caveat": "The original five algorithms did not receive the new four-setting development pilot. Equal final evaluation budgets do not imply equal total development effort."
+}

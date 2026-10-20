@@ -1,0 +1,120 @@
+{
+  "method": "CSO",
+  "seed": 113,
+  "budget": 3264,
+  "unique_evaluations": 3264,
+  "proposals_including_final_batch": 4084,
+  "fitness": 0.09095924092448121,
+  "gains": [
+    6.900113119966932,
+    0.03892079150800075,
+    0.0053814700815375885,
+    12.963867779906735,
+    0.14412808868127214,
+    0.03637047731477623,
+    0.2772383820554522,
+    0.03158866058609496
+  ],
+  "initial_population_sha256": "50fa9375aa1b07219a0966be60c07aa612af003df974fda80d577be5899cad5b",
+  "seconds": 58.936001699999906,
+  "last_iteration": 15,
+  "stop": "strict budget; final batch may be partial",
+  "history": [
+    {
+      "iteration": 0,
+      "evaluations": 64,
+      "best": 0.2881966147263709,
+      "proposals": 64
+    },
+    {
+      "iteration": 1,
+      "evaluations": 281,
+      "best": 0.2881966147263709,
+      "proposals": 332
+    },
+    {
+      "iteration": 2,
+      "evaluations": 498,
+      "best": 0.2881966147263709,
+      "proposals": 600
+    },
+    {
+      "iteration": 3,
+      "evaluations": 713,
+      "best": 0.28450249780896236,
+      "proposals": 868
+    },
+    {
+      "iteration": 4,
+      "evaluations": 930,
+      "best": 0.13832346667496384,
+      "proposals": 1136
+    },
+    {
+      "iteration": 5,
+      "evaluations": 1146,
+      "best": 0.12953634351550733,
+      "proposals": 1404
+    },
+    {
+      "iteration": 6,
+      "evaluations": 1363,
+      "best": 0.12953634351550733,
+      "proposals": 1672
+    },
+    {
+      "iteration": 7,
+      "evaluations": 1579,
+      "best": 0.12663314755640506,
+      "proposals": 1940
+    },
+    {
+      "iteration": 8,
+      "evaluations": 1796,
+      "best": 0.12663314755640506,
+      "proposals": 2208
+    },
+    {
+      "iteration": 9,
+      "evaluations": 2011,
+      "best": 0.11339490060846398,
+      "proposals": 2476
+    },
+    {
+      "iteration": 10,
+      "evaluations": 2228,
+      "best": 0.09931337630064474,
+      "proposals": 2744
+    },
+    {
+      "iteration": 11,
+      "evaluations": 2445,
+      "best": 0.09931337630064474,
+      "proposals": 3012
+    },
+    {
+      "iteration": 12,
+      "evaluations": 2662,
+      "best": 0.09931337630064474,
+      "proposals": 3280
+    },
+    {
+      "iteration": 13,
+      "evaluations": 2879,
+      "best": 0.09095924092448121,
+      "proposals": 3548
+    },
+    {
+      "iteration": 14,
+      "evaluations": 3096,
+      "best": 0.09095924092448121,
+      "proposals": 3816
+    },
+    {
+      "iteration": 15,
+      "evaluations": 3264,
+      "best": 0.09095924092448121,
+      "proposals": 4084
+    }
+  ]
+}

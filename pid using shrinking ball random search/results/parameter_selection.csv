@@ -1,0 +1,5 @@
+method,candidate,mean_rank,selected,parameters,nominal_median_fitness,robust_median_fitness
+SBRS,0,2.0,True,"{""radius0"": 0.15, ""radius_ratio"": 0.01}",0.05226505238248016,0.0663474619393212
+SBRS,1,2.5,False,"{""radius0"": 0.15, ""radius_ratio"": 0.1}",0.052321799888562025,0.06775513737161153
+SBRS,2,2.6666666666666665,False,"{""radius0"": 0.5, ""radius_ratio"": 0.01}",0.05285681713603546,0.06566093665239582
+SBRS,3,2.8333333333333335,False,"{""radius0"": 0.5, ""radius_ratio"": 0.1}",0.053283530817688225,0.06649852868164995

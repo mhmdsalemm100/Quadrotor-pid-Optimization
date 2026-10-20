@@ -1,0 +1,410 @@
+[
+  {
+    "name": "settling_priority",
+    "own_fitness": 0.06642878997285447,
+    "common_main_fitness": 0.05272058105149564,
+    "gains": [
+      10.853635252360206,
+      0.06441247623511856,
+      0.005485857089741754,
+      15.66833302886194,
+      0.15729213335118108,
+      0.019274605155798204,
+      0.3822688441481888,
+      0.09898072785223207
+    ],
+    "settings": {
+      "study_name": "Equation-based Dolphin Swarm Algorithm tuning of AttitudeControl_Sim",
+      "integration_dt_s": 0.001,
+      "controller_dt_s": 0.001,
+      "mixer_dt_s": 0.004,
+      "pre_step_s": 0.2,
+      "response_horizon_s": 3.0,
+      "settling_band_fraction": 0.02,
+      "minimum_final_hold_s": 0.25,
+      "max_overshoot_fraction": 0.1,
+      "max_final_error_fraction": 0.02,
+      "max_motor_clipping_fraction": 0.05,
+      "minimum_motor_speed_rad_s": 0.0,
+      "fixed_discrete_pole": 0.9997,
+      "fitness_weights": {
+        "settling": 0.7,
+        "rise": 0.1,
+        "itae": 0.15,
+        "iae": 0.05
+      },
+      "worst_case_weight": 0.3,
+      "effort_weight": 0.01,
+      "seeds": [
+        101
+      ],
+      "workers": 4,
+      "parameters": [
+        {
+          "name": "roll_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Kp",
+          "lower": 0.01,
+          "upper": 1.0,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Ki",
+          "lower": 0.0001,
+          "upper": 0.5,
+          "scale": "log"
+        }
+      ],
+      "swarm_size": 32,
+      "iterations": 24,
+      "comparison_evaluation_budget": 3264,
+      "sound_directions": 2,
+      "search_time_steps": 2,
+      "sound_speed": 0.08,
+      "communication_acceleration": 10.0,
+      "radius_reduction": 3.0,
+      "maximum_transmission_time": 1000000
+    },
+    "note": "Warm-started exploratory study; not used to select main exported gains."
+  },
+  {
+    "name": "error_priority",
+    "own_fitness": 0.030157324850989264,
+    "common_main_fitness": 0.05249384882267141,
+    "gains": [
+      11.329568124579074,
+      0.06732812865882991,
+      0.006066795757487981,
+      16.541060191084743,
+      0.15580204516413193,
+      0.02710831114879079,
+      0.39155955822922756,
+      0.05426398246406431
+    ],
+    "settings": {
+      "study_name": "Equation-based Dolphin Swarm Algorithm tuning of AttitudeControl_Sim",
+      "integration_dt_s": 0.001,
+      "controller_dt_s": 0.001,
+      "mixer_dt_s": 0.004,
+      "pre_step_s": 0.2,
+      "response_horizon_s": 3.0,
+      "settling_band_fraction": 0.02,
+      "minimum_final_hold_s": 0.25,
+      "max_overshoot_fraction": 0.1,
+      "max_final_error_fraction": 0.02,
+      "max_motor_clipping_fraction": 0.05,
+      "minimum_motor_speed_rad_s": 0.0,
+      "fixed_discrete_pole": 0.9997,
+      "fitness_weights": {
+        "settling": 0.2,
+        "rise": 0.1,
+        "itae": 0.5,
+        "iae": 0.2
+      },
+      "worst_case_weight": 0.3,
+      "effort_weight": 0.01,
+      "seeds": [
+        101
+      ],
+      "workers": 4,
+      "parameters": [
+        {
+          "name": "roll_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Kp",
+          "lower": 0.01,
+          "upper": 1.0,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Ki",
+          "lower": 0.0001,
+          "upper": 0.5,
+          "scale": "log"
+        }
+      ],
+      "swarm_size": 32,
+      "iterations": 24,
+      "comparison_evaluation_budget": 3264,
+      "sound_directions": 2,
+      "search_time_steps": 2,
+      "sound_speed": 0.08,
+      "communication_acceleration": 10.0,
+      "radius_reduction": 3.0,
+      "maximum_transmission_time": 1000000
+    },
+    "note": "Warm-started exploratory study; not used to select main exported gains."
+  },
+  {
+    "name": "slower_sound",
+    "own_fitness": 0.052416436808930565,
+    "common_main_fitness": 0.052416436808930565,
+    "gains": [
+      11.255737830572189,
+      0.0690754843129169,
+      0.0063099762201656116,
+      16.2516046728335,
+      0.15981646506933378,
+      0.027388803676319566,
+      0.39132431554275315,
+      0.05831482321548599
+    ],
+    "settings": {
+      "study_name": "Equation-based Dolphin Swarm Algorithm tuning of AttitudeControl_Sim",
+      "integration_dt_s": 0.001,
+      "controller_dt_s": 0.001,
+      "mixer_dt_s": 0.004,
+      "pre_step_s": 0.2,
+      "response_horizon_s": 3.0,
+      "settling_band_fraction": 0.02,
+      "minimum_final_hold_s": 0.25,
+      "max_overshoot_fraction": 0.1,
+      "max_final_error_fraction": 0.02,
+      "max_motor_clipping_fraction": 0.05,
+      "minimum_motor_speed_rad_s": 0.0,
+      "fixed_discrete_pole": 0.9997,
+      "fitness_weights": {
+        "settling": 0.45,
+        "rise": 0.2,
+        "itae": 0.25,
+        "iae": 0.1
+      },
+      "worst_case_weight": 0.3,
+      "effort_weight": 0.01,
+      "seeds": [
+        101
+      ],
+      "workers": 4,
+      "parameters": [
+        {
+          "name": "roll_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Kp",
+          "lower": 0.01,
+          "upper": 1.0,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Ki",
+          "lower": 0.0001,
+          "upper": 0.5,
+          "scale": "log"
+        }
+      ],
+      "swarm_size": 32,
+      "iterations": 24,
+      "comparison_evaluation_budget": 3264,
+      "sound_directions": 2,
+      "search_time_steps": 2,
+      "sound_speed": 0.04,
+      "communication_acceleration": 10.0,
+      "radius_reduction": 3.0,
+      "maximum_transmission_time": 1000000
+    },
+    "note": "Warm-started exploratory study; not used to select main exported gains."
+  },
+  {
+    "name": "gentler_predation",
+    "own_fitness": 0.05240412760866167,
+    "common_main_fitness": 0.05240412760866167,
+    "gains": [
+      11.300240116952452,
+      0.06787276779644526,
+      0.006222824574097228,
+      16.228753215340497,
+      0.16037282754689877,
+      0.028922649818510476,
+      0.39113239771667446,
+      0.05728752509666057
+    ],
+    "settings": {
+      "study_name": "Equation-based Dolphin Swarm Algorithm tuning of AttitudeControl_Sim",
+      "integration_dt_s": 0.001,
+      "controller_dt_s": 0.001,
+      "mixer_dt_s": 0.004,
+      "pre_step_s": 0.2,
+      "response_horizon_s": 3.0,
+      "settling_band_fraction": 0.02,
+      "minimum_final_hold_s": 0.25,
+      "max_overshoot_fraction": 0.1,
+      "max_final_error_fraction": 0.02,
+      "max_motor_clipping_fraction": 0.05,
+      "minimum_motor_speed_rad_s": 0.0,
+      "fixed_discrete_pole": 0.9997,
+      "fitness_weights": {
+        "settling": 0.45,
+        "rise": 0.2,
+        "itae": 0.25,
+        "iae": 0.1
+      },
+      "worst_case_weight": 0.3,
+      "effort_weight": 0.01,
+      "seeds": [
+        101
+      ],
+      "workers": 4,
+      "parameters": [
+        {
+          "name": "roll_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Kp",
+          "lower": 0.01,
+          "upper": 1.0,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Ki",
+          "lower": 0.0001,
+          "upper": 0.5,
+          "scale": "log"
+        }
+      ],
+      "swarm_size": 32,
+      "iterations": 24,
+      "comparison_evaluation_budget": 3264,
+      "sound_directions": 2,
+      "search_time_steps": 2,
+      "sound_speed": 0.08,
+      "communication_acceleration": 10.0,
+      "radius_reduction": 4.0,
+      "maximum_transmission_time": 1000000
+    },
+    "note": "Warm-started exploratory study; not used to select main exported gains."
+  }
+]

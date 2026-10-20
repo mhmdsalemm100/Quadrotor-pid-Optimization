@@ -1,0 +1,56 @@
+{
+  "ledger_count": 804,
+  "code_hash_count": 46,
+  "code_hash_mismatches": [],
+  "groups": [
+    {
+      "study": "all work/30 seed equal budget study",
+      "ledgers_checked": 150,
+      "summary_rows_checked": 5
+    },
+    {
+      "study": "all work/robustness 30 seed study",
+      "ledgers_checked": 150,
+      "summary_rows_checked": 5
+    },
+    {
+      "study": "pid using alns",
+      "ledgers_checked": 84,
+      "summary_rows_checked": 2
+    },
+    {
+      "study": "pid using great deluge",
+      "ledgers_checked": 84,
+      "summary_rows_checked": 2
+    },
+    {
+      "study": "pid using pure random walk",
+      "ledgers_checked": 84,
+      "summary_rows_checked": 2
+    },
+    {
+      "study": "pid using shrinking ball random search",
+      "ledgers_checked": 84,
+      "summary_rows_checked": 2
+    },
+    {
+      "study": "pid using threshold accepting",
+      "ledgers_checked": 84,
+      "summary_rows_checked": 2
+    },
+    {
+      "study": "pid using vnd",
+      "ledgers_checked": 84,
+      "summary_rows_checked": 2
+    }
+  ],
+  "checks": [
+    "3264 unique evaluations",
+    "finite values and bounds",
+    "monotone best archive",
+    "exported fitness equals ledger minimum",
+    "exported gains match best ledger point",
+    "summary statistics match raw run JSON"
+  ],
+  "not_checked": "No full objective reevaluation or optimization campaign rerun."
+}

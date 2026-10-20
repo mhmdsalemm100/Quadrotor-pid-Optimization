@@ -1,0 +1,47 @@
+{
+  "selection": "best training fitness across seeds; seed 47",
+  "training_fitness": 0.05226508591371648,
+  "baseline_training_fitness": 1011.6167589636441,
+  "training_feasible": true,
+  "controller_dt_s_assumed": 0.001,
+  "mixer_dt_s_assumed": 0.004,
+  "gains": {
+    "roll_outer_K": 16.12697047753728,
+    "roll_inner_Kp_equivalent": 0.15005147486803522,
+    "roll_inner_Ki_equivalent": 0.006571115221422931,
+    "pitch_outer_K": 11.309904024933516,
+    "pitch_inner_Kp_equivalent": 0.06902441961463411,
+    "pitch_inner_Ki_equivalent": 0.0033348250066867454,
+    "yaw_Kp": 0.3853537558017292,
+    "yaw_Ki": 0.08212975831659704
+  },
+  "roll_transfer_function": {
+    "numerator": [
+      0.15005804598325664,
+      -0.1500064594255748
+    ],
+    "denominator": [
+      1.0,
+      -0.9997
+    ]
+  },
+  "pitch_transfer_function": {
+    "numerator": [
+      0.06902775443964079,
+      -0.06900371228874973
+    ],
+    "denominator": [
+      1.0,
+      -0.9997
+    ]
+  },
+  "yaw": {
+    "Kp": 0.3853537558017292,
+    "Ki": 0.08212975831659704,
+    "Kd": 0.0
+  },
+  "source_sha256": "61f6fa12d077ea7c24abc90ab576814d29f374c074fe16833f3024e14aa57daf",
+  "status": "Python-model candidate; not verified in compiled Simulink; no global optimality claim.",
+  "baseline_unpenalized_response_cost": 0.11459246532857427,
+  "optimized_unpenalized_response_cost": 0.05226508591371648
+}

@@ -1,0 +1,52 @@
+{
+  "method": "CSO",
+  "selection": "best",
+  "seed": 114,
+  "training_fitness": 0.05797834584155963,
+  "gains": {
+    "roll_outer_K": 12.11417638787293,
+    "roll_inner_Kp_equivalent": 0.19646277742534846,
+    "roll_inner_Ki_equivalent": 0.21921638274328903,
+    "pitch_outer_K": 10.80623864741421,
+    "pitch_inner_Kp_equivalent": 0.0654108959765805,
+    "pitch_inner_Ki_equivalent": 0.0017861938232528137,
+    "yaw_Kp": 0.3865417732255402,
+    "yaw_Ki": 0.052363531251922266
+  },
+  "transfer_functions": {
+    "roll": {
+      "numerator": [
+        0.19668199380809173,
+        -0.19640383859212085
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    },
+    "pitch": {
+      "numerator": [
+        0.06541268217040375,
+        -0.06539127270778752
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    }
+  },
+  "yaw": {
+    "Kp": 0.3865417732255402,
+    "Ki": 0.052363531251922266,
+    "Kd": 0.0
+  },
+  "validation": {
+    "method": "CSO",
+    "seed": 114,
+    "training_fitness": 0.05797834584155963,
+    "held_out_passes": 7,
+    "single_axis_passes": 60,
+    "combined_passes": 0
+  },
+  "status": "Python-model candidate; assumed controller timing 1 ms and mixer timing 4 ms; not verified in Simulink."
+}

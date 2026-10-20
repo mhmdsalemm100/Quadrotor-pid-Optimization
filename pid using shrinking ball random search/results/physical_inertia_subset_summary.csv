@@ -1,0 +1,7 @@
+mode,method,group,cases_per_controller,median_passes,controllers_passing_all,controllers
+nominal,SBRS,single_axis_mc,280,277.0,0,30
+nominal,SBRS,one_at_a_time,54,50.0,0,30
+nominal,SBRS,combined_stress,80,0.0,0,30
+robust,SBRS,single_axis_mc,280,280.0,28,30
+robust,SBRS,one_at_a_time,54,53.0,0,30
+robust,SBRS,combined_stress,80,0.0,0,30

@@ -1,0 +1,5 @@
+method,candidate,mean_rank,selected,parameters,nominal_median_fitness,robust_median_fitness
+GDA,0,2.6666666666666665,False,"{""step"": 0.03, ""water_slack"": 0.05}",0.05236131981612262,0.11878283684338391
+GDA,1,3.6666666666666665,False,"{""step"": 0.03, ""water_slack"": 0.25}",0.0802120662768254,0.11323628696425996
+GDA,2,1.6666666666666667,True,"{""step"": 0.12, ""water_slack"": 0.05}",0.05902232602996545,0.07772921190326888
+GDA,3,2.0,False,"{""step"": 0.12, ""water_slack"": 0.25}",0.06380321099882838,0.0815318432691356

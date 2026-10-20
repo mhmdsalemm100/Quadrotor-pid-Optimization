@@ -1,0 +1,2 @@
+mode,method,seed,robust_training_fitness,training_passes,nominal_fitness,nominal_passes,nominal_mean_settling_s,nominal_worst_settling_s,single_axis_mc_passes,single_axis_mc_worst_settling_s,single_axis_mc_worst_violation,one_at_a_time_passes,one_at_a_time_worst_settling_s,one_at_a_time_worst_violation,combined_stress_passes,combined_stress_worst_settling_s,combined_stress_worst_violation
+baseline,source,0,1102.2417983869623,21,1011.6167589636441,5,0.5823333333333334,0.743,285,1.2249999999999999,0.13336633344227755,36,1.133,0.15464515722978167,0,3.0,34.894544946847056

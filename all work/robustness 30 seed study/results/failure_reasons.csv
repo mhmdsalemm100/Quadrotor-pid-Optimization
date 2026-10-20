@@ -1,0 +1,11 @@
+mode,method,fails_overshoot,fails_final_error,fails_settling,fails_motor_clipping,fails_negative_speed,fails_cross_axis,fails_bank_limit,fails_numerical
+nominal,GA,20,0,0,0,37,0,0,0
+nominal,PSO,22,0,0,0,67,0,0,0
+nominal,CSO,210,1,1,0,29,0,0,0
+nominal,DSA,113,0,0,0,99,0,0,0
+nominal,CMA-ES,17,0,0,0,56,0,0,0
+robust,GA,0,0,0,0,0,0,0,0
+robust,PSO,0,0,0,0,0,0,0,0
+robust,CSO,0,0,0,0,0,0,0,0
+robust,DSA,0,0,0,0,0,0,0,0
+robust,CMA-ES,0,0,0,0,0,0,0,0

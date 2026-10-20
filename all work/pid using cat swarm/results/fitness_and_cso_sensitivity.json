@@ -1,0 +1,422 @@
+[
+  {
+    "name": "settling_priority",
+    "own_fitness": 0.07622676088982108,
+    "common_main_fitness": 0.0580954544216414,
+    "gains": [
+      15.194870523363546,
+      0.11035542747698253,
+      0.00023832149997128036,
+      15.306812435701216,
+      0.1532210271365044,
+      0.00010000000000000009,
+      0.3557710641163594,
+      0.05210271837814721
+    ],
+    "settings": {
+      "study_name": "Equation-based Cat Swarm Optimization of AttitudeControl_Sim",
+      "integration_dt_s": 0.001,
+      "controller_dt_s": 0.001,
+      "mixer_dt_s": 0.004,
+      "pre_step_s": 0.2,
+      "response_horizon_s": 3.0,
+      "settling_band_fraction": 0.02,
+      "minimum_final_hold_s": 0.25,
+      "max_overshoot_fraction": 0.1,
+      "max_final_error_fraction": 0.02,
+      "max_motor_clipping_fraction": 0.05,
+      "minimum_motor_speed_rad_s": 0.0,
+      "fixed_discrete_pole": 0.9997,
+      "fitness_weights": {
+        "settling": 0.7,
+        "rise": 0.1,
+        "itae": 0.15,
+        "iae": 0.05
+      },
+      "worst_case_weight": 0.3,
+      "effort_weight": 0.01,
+      "seeds": [
+        101
+      ],
+      "workers": 4,
+      "parameters": [
+        {
+          "name": "roll_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Kp",
+          "lower": 0.01,
+          "upper": 1.0,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Ki",
+          "lower": 0.0001,
+          "upper": 0.5,
+          "scale": "log"
+        }
+      ],
+      "swarm_size": 32,
+      "iterations": 24,
+      "velocity_limit": 0.2,
+      "initial_velocity_limit": 0.1,
+      "boundary_damping": 0.5,
+      "seeking_memory_pool": 5,
+      "seeking_range": 0.2,
+      "dimensions_to_change_fraction": 0.5,
+      "self_position_considering": true,
+      "mixture_ratio": 0.2,
+      "tracing_coefficient": 2.0,
+      "comparison_evaluation_budget": 3264
+    },
+    "note": "Warm-started exploratory study; not used to select main exported gains."
+  },
+  {
+    "name": "error_priority",
+    "own_fitness": 0.03267568693575541,
+    "common_main_fitness": 0.0580954544216414,
+    "gains": [
+      15.194870523363546,
+      0.11035542747698253,
+      0.00023832149997128036,
+      15.306812435701216,
+      0.1532210271365044,
+      0.00010000000000000009,
+      0.3557710641163594,
+      0.05210271837814721
+    ],
+    "settings": {
+      "study_name": "Equation-based Cat Swarm Optimization of AttitudeControl_Sim",
+      "integration_dt_s": 0.001,
+      "controller_dt_s": 0.001,
+      "mixer_dt_s": 0.004,
+      "pre_step_s": 0.2,
+      "response_horizon_s": 3.0,
+      "settling_band_fraction": 0.02,
+      "minimum_final_hold_s": 0.25,
+      "max_overshoot_fraction": 0.1,
+      "max_final_error_fraction": 0.02,
+      "max_motor_clipping_fraction": 0.05,
+      "minimum_motor_speed_rad_s": 0.0,
+      "fixed_discrete_pole": 0.9997,
+      "fitness_weights": {
+        "settling": 0.2,
+        "rise": 0.1,
+        "itae": 0.5,
+        "iae": 0.2
+      },
+      "worst_case_weight": 0.3,
+      "effort_weight": 0.01,
+      "seeds": [
+        101
+      ],
+      "workers": 4,
+      "parameters": [
+        {
+          "name": "roll_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Kp",
+          "lower": 0.01,
+          "upper": 1.0,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Ki",
+          "lower": 0.0001,
+          "upper": 0.5,
+          "scale": "log"
+        }
+      ],
+      "swarm_size": 32,
+      "iterations": 24,
+      "velocity_limit": 0.2,
+      "initial_velocity_limit": 0.1,
+      "boundary_damping": 0.5,
+      "seeking_memory_pool": 5,
+      "seeking_range": 0.2,
+      "dimensions_to_change_fraction": 0.5,
+      "self_position_considering": true,
+      "mixture_ratio": 0.2,
+      "tracing_coefficient": 2.0,
+      "comparison_evaluation_budget": 3264
+    },
+    "note": "Warm-started exploratory study; not used to select main exported gains."
+  },
+  {
+    "name": "more_tracing",
+    "own_fitness": 0.06181627708460492,
+    "common_main_fitness": 0.06181627708460492,
+    "gains": [
+      10.165437789649642,
+      0.06309843553392167,
+      0.00010000000000000009,
+      10.281117348172069,
+      0.08388073090006193,
+      0.0015948295818131706,
+      0.3714521456002366,
+      0.041564949209058975
+    ],
+    "settings": {
+      "study_name": "Equation-based Cat Swarm Optimization of AttitudeControl_Sim",
+      "integration_dt_s": 0.001,
+      "controller_dt_s": 0.001,
+      "mixer_dt_s": 0.004,
+      "pre_step_s": 0.2,
+      "response_horizon_s": 3.0,
+      "settling_band_fraction": 0.02,
+      "minimum_final_hold_s": 0.25,
+      "max_overshoot_fraction": 0.1,
+      "max_final_error_fraction": 0.02,
+      "max_motor_clipping_fraction": 0.05,
+      "minimum_motor_speed_rad_s": 0.0,
+      "fixed_discrete_pole": 0.9997,
+      "fitness_weights": {
+        "settling": 0.45,
+        "rise": 0.2,
+        "itae": 0.25,
+        "iae": 0.1
+      },
+      "worst_case_weight": 0.3,
+      "effort_weight": 0.01,
+      "seeds": [
+        101
+      ],
+      "workers": 4,
+      "parameters": [
+        {
+          "name": "roll_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Kp",
+          "lower": 0.01,
+          "upper": 1.0,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Ki",
+          "lower": 0.0001,
+          "upper": 0.5,
+          "scale": "log"
+        }
+      ],
+      "swarm_size": 32,
+      "iterations": 24,
+      "velocity_limit": 0.2,
+      "initial_velocity_limit": 0.1,
+      "boundary_damping": 0.5,
+      "seeking_memory_pool": 5,
+      "seeking_range": 0.2,
+      "dimensions_to_change_fraction": 0.5,
+      "self_position_considering": true,
+      "mixture_ratio": 0.4,
+      "tracing_coefficient": 2.0,
+      "comparison_evaluation_budget": 3264
+    },
+    "note": "Warm-started exploratory study; not used to select main exported gains."
+  },
+  {
+    "name": "smaller_seeking_range",
+    "own_fitness": 0.0567461840556526,
+    "common_main_fitness": 0.0567461840556526,
+    "gains": [
+      13.448606783339464,
+      0.11766848710106828,
+      0.00010753286553156176,
+      14.639286457362168,
+      0.11766848710106823,
+      0.0003074011249254976,
+      0.38616527457689837,
+      0.050107742707590476
+    ],
+    "settings": {
+      "study_name": "Equation-based Cat Swarm Optimization of AttitudeControl_Sim",
+      "integration_dt_s": 0.001,
+      "controller_dt_s": 0.001,
+      "mixer_dt_s": 0.004,
+      "pre_step_s": 0.2,
+      "response_horizon_s": 3.0,
+      "settling_band_fraction": 0.02,
+      "minimum_final_hold_s": 0.25,
+      "max_overshoot_fraction": 0.1,
+      "max_final_error_fraction": 0.02,
+      "max_motor_clipping_fraction": 0.05,
+      "minimum_motor_speed_rad_s": 0.0,
+      "fixed_discrete_pole": 0.9997,
+      "fitness_weights": {
+        "settling": 0.45,
+        "rise": 0.2,
+        "itae": 0.25,
+        "iae": 0.1
+      },
+      "worst_case_weight": 0.3,
+      "effort_weight": 0.01,
+      "seeds": [
+        101
+      ],
+      "workers": 4,
+      "parameters": [
+        {
+          "name": "roll_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Kp",
+          "lower": 0.01,
+          "upper": 1.0,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Ki",
+          "lower": 0.0001,
+          "upper": 0.5,
+          "scale": "log"
+        }
+      ],
+      "swarm_size": 32,
+      "iterations": 24,
+      "velocity_limit": 0.2,
+      "initial_velocity_limit": 0.1,
+      "boundary_damping": 0.5,
+      "seeking_memory_pool": 5,
+      "seeking_range": 0.1,
+      "dimensions_to_change_fraction": 0.5,
+      "self_position_considering": true,
+      "mixture_ratio": 0.2,
+      "tracing_coefficient": 2.0,
+      "comparison_evaluation_budget": 3264
+    },
+    "note": "Warm-started exploratory study; not used to select main exported gains."
+  }
+]

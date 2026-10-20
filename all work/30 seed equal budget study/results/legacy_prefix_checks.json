@@ -1,0 +1,47 @@
+[
+  {
+    "method": "CSO",
+    "seed": 11,
+    "difference": 0.0
+  },
+  {
+    "method": "CSO",
+    "seed": 29,
+    "difference": 0.0
+  },
+  {
+    "method": "CSO",
+    "seed": 47,
+    "difference": 0.0
+  },
+  {
+    "method": "DSA",
+    "seed": 11,
+    "difference": 0.0
+  },
+  {
+    "method": "DSA",
+    "seed": 29,
+    "difference": 0.0
+  },
+  {
+    "method": "DSA",
+    "seed": 47,
+    "difference": 0.0
+  },
+  {
+    "method": "CMA-ES",
+    "seed": 11,
+    "difference": 0.0
+  },
+  {
+    "method": "CMA-ES",
+    "seed": 29,
+    "difference": 0.0
+  },
+  {
+    "method": "CMA-ES",
+    "seed": 47,
+    "difference": 0.0
+  }
+]

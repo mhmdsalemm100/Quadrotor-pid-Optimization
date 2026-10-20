@@ -1,0 +1,30 @@
+{
+  "tests_run": 17,
+  "test_failures": 0,
+  "test_errors": 0,
+  "recomputed_main_fitness": 0.05226415044430983,
+  "figures_verified": 12,
+  "file_hashes": {
+    "cmaes.py": "a76ee16b6c95bfd159a72398a0fbd986a1d848c267517db56b8fcf8bbb2d1c4f",
+    "cma_diagnostics.py": "6ad5a9d83328cf07c68df1d4cbf79fe9073d8a18c84f0c188aa03f21210edb66",
+    "compare_methods.py": "7b9b37579811b5f1e26559891f2811d1bac1b866ec9811c5d97c6cf8be5c5a58",
+    "config.json": "41cf746c7868c03b1f1c6cda47048a63c1b43fc136ae449d2b26e3d9c4b5c182",
+    "inspect_source.py": "d865326214389b726605ff59de3c50ddc18d9b67e29ede1d2ea69dc4e196b76e",
+    "linear_analysis.py": "736ba63ae1a39cd9c0e025b826cd61ac7d52315ff5a9d69e8d87abbe8eca85d6",
+    "model.py": "12d97aa315326c919b79b7040a178bcf5c84fc1bcf3f2e133b17ffee84104be6",
+    "OPEN_REPORT.cmd": "da003321d83343dc7e901b9d0802cfb5bdb04f56cfde5127817f2f364ece5d37",
+    "README.md": "5288ab8601fb9813791e5ebacc36d13d3fa03bd62b675092fca22e3c9c08d8bd",
+    "report.py": "0701cbd76011d626623ccd6193e3829c3dfa1434b58d5f025c323780ecdb9c85",
+    "requirements-lock.txt": "639cc7b3e98bf88ec26207063825602de5cf427ac95ad142a0bb4821d225fe05",
+    "requirements.txt": "869a370111dda0f47ba31aa0efc22af3c4260651de7eabb3e6bb8bf96d007bb1",
+    "RUN_FULL.cmd": "67864f88043250e02ad2370219d2a1fcc7f8efef20ba89a451f13d9c83a19e2d",
+    "RUN_QUICK.cmd": "92c186fc96bd08baf6c72d1c08012f07dd14a722a81c061c9d0715cba8c03c56",
+    "run_study.py": "6007c1ccb64fc18f74766f8befd1eb3bbe74a384adcbaa2ad4cf150c71fb6e14",
+    "SETUP.cmd": "17e4c8d217bdb7a3d0b241b96a3f1e2f4757bf356824b74b4d8501090e2b880b",
+    "study.py": "65bad488f08fc5d74dc9244399b540dcb10f8fb0070ea396e0276757ad18ab1c",
+    "STUDY_METHOD.md": "ffece76170c8b975ab1eaa83481aa40169a34c5bbec63e769148a612a7da2fd5",
+    "test_cmaes.py": "f3e7350564ebc2190614c6435c68affb8c75ccdbbdddcbcbc06388c3f5d66fc9",
+    "test_study.py": "e498c767643b1f7b6f2b26794737c81802624ee1b9c8160e461f8f9c715935be",
+    "verify_results.py": "769b3019d1b363ed32c75d26657b302167ee106484d980621fe337a4f5c1b81a"
+  }
+}

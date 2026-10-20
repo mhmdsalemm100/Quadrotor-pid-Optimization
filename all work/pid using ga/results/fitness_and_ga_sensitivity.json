@@ -1,0 +1,308 @@
+[
+  {
+    "name": "settling_priority",
+    "own_fitness": 0.06537394322919378,
+    "common_main_fitness": 0.05189517228761488,
+    "gains": [
+      16.35081200523698,
+      0.1522394915653919,
+      0.005074132070264533,
+      11.192461207665499,
+      0.06910655520934328,
+      0.007302980032585708,
+      0.38601977932220854,
+      0.10019966590691044
+    ],
+    "settings": {
+      "study_name": "Equation-based GA attitude tuning of AttitudeControl_Sim",
+      "integration_dt_s": 0.001,
+      "controller_dt_s": 0.001,
+      "mixer_dt_s": 0.004,
+      "pre_step_s": 0.2,
+      "response_horizon_s": 3.0,
+      "settling_band_fraction": 0.02,
+      "minimum_final_hold_s": 0.25,
+      "max_overshoot_fraction": 0.1,
+      "max_final_error_fraction": 0.02,
+      "max_motor_clipping_fraction": 0.05,
+      "minimum_motor_speed_rad_s": 0.0,
+      "fixed_discrete_pole": 0.9997,
+      "fitness_weights": {
+        "settling": 0.7,
+        "rise": 0.1,
+        "itae": 0.15,
+        "iae": 0.05
+      },
+      "worst_case_weight": 0.3,
+      "effort_weight": 0.01,
+      "population": 32,
+      "generations": 24,
+      "seeds": [
+        101
+      ],
+      "elitism": 4,
+      "tournament_size": 3,
+      "crossover_probability": 0.9,
+      "mutation_probability_per_gene": 0.25,
+      "mutation_sigma_start": 0.14,
+      "mutation_sigma_end": 0.035,
+      "random_immigrant_fraction": 0.08,
+      "workers": 4,
+      "parameters": [
+        {
+          "name": "roll_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Kp",
+          "lower": 0.01,
+          "upper": 1.0,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Ki",
+          "lower": 0.0001,
+          "upper": 0.5,
+          "scale": "log"
+        }
+      ]
+    },
+    "note": "Warm-started exploratory study; not used to select main exported gains."
+  },
+  {
+    "name": "error_priority",
+    "own_fitness": 0.030598344656040714,
+    "common_main_fitness": 0.05344981079936628,
+    "gains": [
+      15.907731983204476,
+      0.14381532904252295,
+      0.004943788844445567,
+      11.048130244630343,
+      0.06685692166010035,
+      0.00041891259186191605,
+      0.3888202590423508,
+      0.05151203946001894
+    ],
+    "settings": {
+      "study_name": "Equation-based GA attitude tuning of AttitudeControl_Sim",
+      "integration_dt_s": 0.001,
+      "controller_dt_s": 0.001,
+      "mixer_dt_s": 0.004,
+      "pre_step_s": 0.2,
+      "response_horizon_s": 3.0,
+      "settling_band_fraction": 0.02,
+      "minimum_final_hold_s": 0.25,
+      "max_overshoot_fraction": 0.1,
+      "max_final_error_fraction": 0.02,
+      "max_motor_clipping_fraction": 0.05,
+      "minimum_motor_speed_rad_s": 0.0,
+      "fixed_discrete_pole": 0.9997,
+      "fitness_weights": {
+        "settling": 0.2,
+        "rise": 0.1,
+        "itae": 0.5,
+        "iae": 0.2
+      },
+      "worst_case_weight": 0.3,
+      "effort_weight": 0.01,
+      "population": 32,
+      "generations": 24,
+      "seeds": [
+        101
+      ],
+      "elitism": 4,
+      "tournament_size": 3,
+      "crossover_probability": 0.9,
+      "mutation_probability_per_gene": 0.25,
+      "mutation_sigma_start": 0.14,
+      "mutation_sigma_end": 0.035,
+      "random_immigrant_fraction": 0.08,
+      "workers": 4,
+      "parameters": [
+        {
+          "name": "roll_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Kp",
+          "lower": 0.01,
+          "upper": 1.0,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Ki",
+          "lower": 0.0001,
+          "upper": 0.5,
+          "scale": "log"
+        }
+      ]
+    },
+    "note": "Warm-started exploratory study; not used to select main exported gains."
+  },
+  {
+    "name": "high_mutation",
+    "own_fitness": 0.05226508591371648,
+    "common_main_fitness": 0.05226508591371648,
+    "gains": [
+      16.12697047753728,
+      0.1500514748680353,
+      0.006571115221422936,
+      11.309904024933516,
+      0.06902441961463414,
+      0.0033348250066867484,
+      0.3853537558017294,
+      0.08212975831659712
+    ],
+    "settings": {
+      "study_name": "Equation-based GA attitude tuning of AttitudeControl_Sim",
+      "integration_dt_s": 0.001,
+      "controller_dt_s": 0.001,
+      "mixer_dt_s": 0.004,
+      "pre_step_s": 0.2,
+      "response_horizon_s": 3.0,
+      "settling_band_fraction": 0.02,
+      "minimum_final_hold_s": 0.25,
+      "max_overshoot_fraction": 0.1,
+      "max_final_error_fraction": 0.02,
+      "max_motor_clipping_fraction": 0.05,
+      "minimum_motor_speed_rad_s": 0.0,
+      "fixed_discrete_pole": 0.9997,
+      "fitness_weights": {
+        "settling": 0.45,
+        "rise": 0.2,
+        "itae": 0.25,
+        "iae": 0.1
+      },
+      "worst_case_weight": 0.3,
+      "effort_weight": 0.01,
+      "population": 32,
+      "generations": 24,
+      "seeds": [
+        101
+      ],
+      "elitism": 4,
+      "tournament_size": 3,
+      "crossover_probability": 0.9,
+      "mutation_probability_per_gene": 0.5,
+      "mutation_sigma_start": 0.14,
+      "mutation_sigma_end": 0.035,
+      "random_immigrant_fraction": 0.08,
+      "workers": 4,
+      "parameters": [
+        {
+          "name": "roll_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "roll_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_outer_K",
+          "lower": 1.0,
+          "upper": 30.0,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Kp_equivalent",
+          "lower": 0.005,
+          "upper": 0.35,
+          "scale": "log"
+        },
+        {
+          "name": "pitch_inner_Ki_equivalent",
+          "lower": 0.0001,
+          "upper": 1.5,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Kp",
+          "lower": 0.01,
+          "upper": 1.0,
+          "scale": "log"
+        },
+        {
+          "name": "yaw_Ki",
+          "lower": 0.0001,
+          "upper": 0.5,
+          "scale": "log"
+        }
+      ]
+    },
+    "note": "Warm-started exploratory study; not used to select main exported gains."
+  }
+]

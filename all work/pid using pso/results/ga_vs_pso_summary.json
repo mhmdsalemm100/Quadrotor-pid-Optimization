@@ -1,0 +1,8 @@
+{
+  "same_problem_configuration": true,
+  "GA_recomputed_fitness": 0.05226508591371648,
+  "PSO_fitness": 0.05181310024035224,
+  "PSO_fitness_reduction_vs_GA_pct": 0.8647946625600422,
+  "main_PSO_used_GA_initialization": false,
+  "interpretation": "Descriptive comparison of best main-run candidates and three seeds, not proof of algorithm superiority."
+}

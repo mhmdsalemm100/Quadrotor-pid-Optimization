@@ -1,0 +1,6 @@
+mode,method,selection,seed,passes,cases,physical_passes,physical_cases,worst_violation,overshoot_failures,final_error_failures,settling_failures,motor_clipping_failures,negative_speed_failures,cross_axis_failures,bank_limit_failures,numerical_failures
+nominal,TA,best,102,1216,1536,1056,1344,0.1408574896604558,0,0,0,0,320,0,0,0
+nominal,TA,median,119,1216,1536,1056,1344,0.24706490526115044,64,0,0,0,256,0,0,0
+robust,TA,best,126,1408,1536,1248,1344,0.08414061176789583,0,0,0,0,128,0,0,0
+robust,TA,median,118,1344,1536,1184,1344,0.09535029909556636,0,0,0,0,192,0,0,0
+baseline,source,original,0,1088,1536,960,1344,0.16075444096912897,0,0,0,64,448,0,0,0

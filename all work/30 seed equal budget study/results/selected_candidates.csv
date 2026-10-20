@@ -1,0 +1,11 @@
+method,selection,seed,fitness,single_axis_passes,combined_passes,held_out_passes
+GA,best,102,0.0513596826213876,59,0,10
+GA,median_representative,11,0.052276412343770014,60,0,7
+PSO,best,107,0.05103350348240746,58,0,9
+PSO,median_representative,105,0.05206902324768102,59,0,5
+CSO,best,114,0.05797834584155963,60,0,7
+CSO,median_representative,127,0.06677266609028382,60,0,10
+DSA,best,117,0.05226800719584598,59,0,8
+DSA,median_representative,47,0.05666513758123898,60,0,8
+CMA-ES,best,47,0.05226415044430983,60,0,5
+CMA-ES,median_representative,119,0.05290860909712142,60,0,5

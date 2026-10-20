@@ -1,0 +1,11 @@
+mode,method,cases_per_controller,median_passes,controllers_passing_all
+nominal,GA,280,278.0,0
+nominal,PSO,280,278.0,0
+nominal,CSO,280,279.0,6
+nominal,DSA,280,277.5,2
+nominal,CMA-ES,280,279.0,1
+robust,GA,280,280.0,30
+robust,PSO,280,280.0,30
+robust,CSO,280,280.0,30
+robust,DSA,280,280.0,30
+robust,CMA-ES,280,280.0,30

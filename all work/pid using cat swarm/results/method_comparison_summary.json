@@ -1,0 +1,49 @@
+{
+  "same_problem_configuration": true,
+  "methods": [
+    {
+      "method": "GA",
+      "best_fitness": 0.05226508591371648,
+      "mean_seed_fitness": 0.05256231720252801,
+      "std_seed_fitness": 0.00021939013277321674,
+      "min_unique_evaluations": 3024,
+      "max_unique_evaluations": 3035
+    },
+    {
+      "method": "PSO",
+      "best_fitness": 0.05181310024035224,
+      "mean_seed_fitness": 0.052123026116072446,
+      "std_seed_fitness": 0.0002240389540622489,
+      "min_unique_evaluations": 3264,
+      "max_unique_evaluations": 3264
+    },
+    {
+      "method": "CSO",
+      "best_fitness": 0.06216829916316375,
+      "mean_seed_fitness": 0.06289455517956855,
+      "std_seed_fitness": 0.0008855987554355139,
+      "min_unique_evaluations": 10884,
+      "max_unique_evaluations": 10891
+    },
+    {
+      "method": "CSO at 3264 evaluations",
+      "best_fitness": 0.07138035236468666,
+      "mean_seed_fitness": 0.07729171334554462,
+      "std_seed_fitness": 0.007502353299921352,
+      "min_unique_evaluations": 3264,
+      "max_unique_evaluations": 3264
+    }
+  ],
+  "budget_candidate_seed": 47,
+  "budget_candidate_gains": {
+    "roll_outer_K": 8.94183402884292,
+    "roll_inner_Kp_equivalent": 0.04230467603770479,
+    "roll_inner_Ki_equivalent": 0.011225246204665364,
+    "pitch_outer_K": 7.927029722625462,
+    "pitch_inner_Kp_equivalent": 0.05765771938676583,
+    "pitch_inner_Ki_equivalent": 0.00017002740096984598,
+    "yaw_Kp": 0.34765620887062393,
+    "yaw_Ki": 0.07152497066317597
+  },
+  "note": "Full CSO uses more evaluations. Budget snapshot is retrospective and is not a separate seeded run."
+}

@@ -1,0 +1,82 @@
+{
+  "method": "DSA",
+  "selection": "median",
+  "seed": 105,
+  "training_fitness": 0.07008450951571661,
+  "gains": {
+    "roll_outer_K": 14.123002541190969,
+    "roll_inner_Kp_equivalent": 0.11683904730054448,
+    "roll_inner_Ki_equivalent": 0.006033770272055838,
+    "pitch_outer_K": 11.319199100273496,
+    "pitch_inner_Kp_equivalent": 0.10821538981962006,
+    "pitch_inner_Ki_equivalent": 0.21250882067416085,
+    "yaw_Kp": 0.34188679045362713,
+    "yaw_Ki": 0.05852456924422235
+  },
+  "roll_pitch_discrete": {
+    "roll": {
+      "numerator": [
+        0.11684508107081654,
+        -0.11680399558635432
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    },
+    "pitch": {
+      "numerator": [
+        0.10842789864029423,
+        -0.10818292520267418
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    }
+  },
+  "yaw_PI": {
+    "Kp": 0.34188679045362713,
+    "Ki": 0.05852456924422235
+  },
+  "validation": {
+    "mode": "robust",
+    "method": "DSA",
+    "seed": 105,
+    "robust_training_fitness": 0.07008450951571661,
+    "training_passes": 30,
+    "nominal_fitness": 0.062340950299254586,
+    "nominal_passes": 6,
+    "nominal_mean_settling_s": 0.2873333333333334,
+    "nominal_worst_settling_s": 0.38299999999999995,
+    "single_axis_mc_passes": 300,
+    "single_axis_mc_worst_settling_s": 0.47100000000000003,
+    "single_axis_mc_worst_violation": 0.0,
+    "one_at_a_time_passes": 54,
+    "one_at_a_time_worst_settling_s": 0.441,
+    "one_at_a_time_worst_violation": 0.0,
+    "combined_stress_passes": 0,
+    "combined_stress_worst_settling_s": 3.0,
+    "combined_stress_worst_violation": 15.520134130539226
+  },
+  "status": "Python candidate; selection uses training fitness only; controller 1 ms, mixer 4 ms; not Simulink verified. Joint-boundary acceptance: 1472/1536; these finite tests are not a continuous-range guarantee.",
+  "joint_boundary_audit": {
+    "mode": "robust",
+    "method": "DSA",
+    "selection": "median",
+    "seed": 105,
+    "passes": 1472,
+    "cases": 1536,
+    "physical_passes": 1296,
+    "physical_cases": 1344,
+    "worst_violation": 0.05312510056942916,
+    "overshoot_failures": 0,
+    "final_error_failures": 0,
+    "settling_failures": 0,
+    "motor_clipping_failures": 0,
+    "negative_speed_failures": 64,
+    "cross_axis_failures": 0,
+    "bank_limit_failures": 0,
+    "numerical_failures": 0
+  }
+}

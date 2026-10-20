@@ -1,0 +1,5 @@
+method,scenario,finite,numerical_guard_dt1ms,numerical_guard_dt05ms,max_angle_difference_deg,max_rate_difference_deg_s,max_settling_difference_s
+SBRS,roll_20deg,True,False,False,1.638850521358388e-07,5.765444541824332e-06,0.0005000000000000004
+SBRS,pitch_20deg,True,False,False,1.713298842200303e-07,6.555323757913412e-06,0.0005000000000000004
+SBRS,yaw_100dps,True,False,False,1.4799362655005534e-08,1.3417326407044175e-07,0.0005000000000000004
+SBRS,train_plant6_axis2,True,False,False,6.766367689052412e-09,4.7700890446216854e-08,5.551115123125783e-17

@@ -1,0 +1,24 @@
+PYTHON PSO CANDIDATE — MANUAL SIMULINK PARAMETER MAP
+Assumed controller sample time: 0.001 s; mixer: 0.004 s.
+Python-model candidate; not verified in compiled Simulink; no global optimality claim.
+
+Control System/AttitudeControl/Gain2 (ROLL): 11.4100644956
+Control System/AttitudeControl/Gain1 (PITCH): 16.3348722957
+Control System/AttitudeControl/Discrete Transfer Fcn2 (ROLL):
+  Numerator: [0.06815588857649076, -0.06813294621580225]
+  Denominator: [1.0, -0.9997]
+Control System/AttitudeControl/Discrete Transfer Fcn3 (PITCH):
+  Numerator: [0.14778899400641252, -0.14768126317448005]
+  Denominator: [1.0, -0.9997]
+Init_control.m variables:
+  Kp_YAW_AngleRate = 0.386608108079
+  Ki_YAW_AngleRate = 0.103478966018
+  Kd_YAW_AngleRate = 0
+
+Use numerator/denominator values for the existing roll/pitch transfer blocks.
+The equivalent Kp/Ki parameterization is a leaky controller, not an ideal PI block.
+Keep saturation limits as in the source for this candidate comparison.
+Confirm compiled controller and mixer timing BEFORE interpreting Python performance
+as Simulink performance. Reproduce the same initialized operating point and steps.
+Do not assume the 220 rate limit means degrees/s: the supplied model applies 220 rad/s.
+No source SLX or MATLAB file has been edited or executed.

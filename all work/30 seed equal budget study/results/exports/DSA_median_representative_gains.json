@@ -1,0 +1,52 @@
+{
+  "method": "DSA",
+  "selection": "median_representative",
+  "seed": 47,
+  "training_fitness": 0.05666513758123898,
+  "gains": {
+    "roll_outer_K": 9.896821775303364,
+    "roll_inner_Kp_equivalent": 0.057593803024617904,
+    "roll_inner_Ki_equivalent": 0.005671416436340584,
+    "pitch_outer_K": 13.367132631979837,
+    "pitch_inner_Kp_equivalent": 0.13634906016158035,
+    "pitch_inner_Ki_equivalent": 0.025685933219889007,
+    "yaw_Kp": 0.377099244564206,
+    "yaw_Ki": 0.05501823323700272
+  },
+  "transfer_functions": {
+    "roll": {
+      "numerator": [
+        0.057599474441054246,
+        -0.05757652488371052
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    },
+    "pitch": {
+      "numerator": [
+        0.13637474609480024,
+        -0.1363081554435319
+      ],
+      "denominator": [
+        1.0,
+        -0.9997
+      ]
+    }
+  },
+  "yaw": {
+    "Kp": 0.377099244564206,
+    "Ki": 0.05501823323700272,
+    "Kd": 0.0
+  },
+  "validation": {
+    "method": "DSA",
+    "seed": 47,
+    "training_fitness": 0.05666513758123898,
+    "held_out_passes": 8,
+    "single_axis_passes": 60,
+    "combined_passes": 0
+  },
+  "status": "Python-model candidate; assumed controller timing 1 ms and mixer timing 4 ms; not verified in Simulink."
+}

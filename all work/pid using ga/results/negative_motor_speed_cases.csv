@@ -1,0 +1,8 @@
+scenario,controller,minimum_motor_speed_rad_s
+yaw_100dps,baseline,-11.544123962616652
+roll_max35,GA,-72.05691121883206
+yaw_max200,baseline,-16.267522702152412
+yaw_max200,GA,-16.26670257000455
+lighter_faster,GA,-5.783901514973205
+throttle_0.50,GA,-62.497618828854215
+source_startup35,GA,-72.05691121883248

@@ -1,0 +1,5 @@
+method,candidate,mean_rank,selected,parameters,nominal_median_fitness,robust_median_fitness
+VND,0,1.8333333333333333,True,"{""radius"": 0.05, ""neighborhood_order"": ""large_to_small""}",0.05325491685976601,0.06852655309207129
+VND,1,4.0,False,"{""radius"": 0.05, ""neighborhood_order"": ""small_to_large""}",0.07437037224854977,0.14335751174241998
+VND,2,1.8333333333333333,False,"{""radius"": 0.2, ""neighborhood_order"": ""large_to_small""}",0.05228724052000977,0.06762776308729623
+VND,3,2.3333333333333335,False,"{""radius"": 0.2, ""neighborhood_order"": ""small_to_large""}",0.05639490456443649,0.07170526302673952

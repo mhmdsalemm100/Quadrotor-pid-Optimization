@@ -1,0 +1,5 @@
+method,candidate,mean_rank,selected,parameters,nominal_median_fitness,robust_median_fitness
+TA,0,1.0,True,"{""step"": 0.03, ""threshold0"": 0.02}",0.054821322404183,0.06734375916944502
+TA,1,4.0,False,"{""step"": 0.03, ""threshold0"": 0.2}",0.12920566115534265,0.1076201123372912
+TA,2,2.1666666666666665,False,"{""step"": 0.12, ""threshold0"": 0.02}",0.05555864546255071,0.06901297679511775
+TA,3,2.8333333333333335,False,"{""step"": 0.12, ""threshold0"": 0.2}",0.062000252561401716,0.07536927912945245

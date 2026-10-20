@@ -1,0 +1,29 @@
+{
+  "tests_run": 16,
+  "test_failures": 0,
+  "test_errors": 0,
+  "recomputed_main_fitness": 0.05181310024035224,
+  "figures_verified": 11,
+  "file_hashes": {
+    "compare_ga.py": "03f5eb7ee18c3ecb4e8249c263a571f7387c114c10f4becb5ea3fd343d750fac",
+    "config.json": "0e06fc8175f2ee4688e90b299de438a273f1089fe57cd7aca2f9515940db8c25",
+    "inspect_source.py": "d865326214389b726605ff59de3c50ddc18d9b67e29ede1d2ea69dc4e196b76e",
+    "linear_analysis.py": "736ba63ae1a39cd9c0e025b826cd61ac7d52315ff5a9d69e8d87abbe8eca85d6",
+    "model.py": "12d97aa315326c919b79b7040a178bcf5c84fc1bcf3f2e133b17ffee84104be6",
+    "OPEN_REPORT.cmd": "da003321d83343dc7e901b9d0802cfb5bdb04f56cfde5127817f2f364ece5d37",
+    "pso.py": "4a6de382565e49bea1e7efefeea2bdf29101096b866bdf4fcc75744753701c82",
+    "README.md": "53d1acecf5e2aab63d04c993e4b13622a9c8df13c05dbdc015ae60c62c4489d0",
+    "report.py": "1cb88486b8dd607162fdaa996b398543a125bbf3f94f4f1b93a3fe9ed18b9035",
+    "requirements-lock.txt": "58a9229e182b25a8529d0654a5a6e095f9c00304e132a910b838820044a9999e",
+    "requirements.txt": "71cad60d68136160a0a9274a09f1d8b8c3815522c2fa6f0b860a3b7615e98fca",
+    "RUN_FULL.cmd": "4a72062a2b4d192bb5e8b0c5cc666c2d4599eb50f7c74796fad246ceef455793",
+    "RUN_QUICK.cmd": "92c186fc96bd08baf6c72d1c08012f07dd14a722a81c061c9d0715cba8c03c56",
+    "run_study.py": "a4355c2cb5179a15f9547bb885487f2cb5836c084ae925d19776cca11deaa8e1",
+    "SETUP.cmd": "17e4c8d217bdb7a3d0b241b96a3f1e2f4757bf356824b74b4d8501090e2b880b",
+    "study.py": "65bad488f08fc5d74dc9244399b540dcb10f8fb0070ea396e0276757ad18ab1c",
+    "STUDY_METHOD.md": "e5ce6f053f542097c31fbcbf56d53bcf7c0dd9d4146cf828e90b9d58a9f28a7f",
+    "test_pso.py": "674061f4d6858d459268f1c41077d54dbaccc7538ef519e943a254d701f7de7e",
+    "test_study.py": "e498c767643b1f7b6f2b26794737c81802624ee1b9c8160e461f8f9c715935be",
+    "verify_results.py": "6004f5452ff1ee8aa84d6d31424b97d319d48250ee2cd3b39119d73dc270fb3b"
+  }
+}
