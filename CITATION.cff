@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite this repository."
+type: software
+title: "Quadrotor PID Optimization Studies"
+authors:
+  - family-names: "ALbaraj"
+    given-names: "Mohammad"
+repository-code: "https://github.com/mhmdsalemm100/Quadrotor-pid-Optimization"
+url: "https://github.com/mhmdsalemm100/Quadrotor-pid-Optimization"

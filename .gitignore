@@ -1,0 +1,36 @@
+# Only source, configuration, dependencies and Markdown documentation are eligible.
+*
+!*/
+!*.py
+!*.m
+!*.slx
+!*.xml
+!*.md
+!config.json
+!METHOD.json
+!requirements*.txt
+!/CITATION.cff
+!/.gitignore
+# Never publish generated outputs, papers, reference datasets or local environments.
+results*/
+reports/
+figures/
+plots/
+plot_data/
+traces/
+runs/
+references/
+refrences/
+*_reference/
+reference_benchmark/
+30_seed_equal_budget/
+version*/
+MDPI_Manuscript_LaTeX/
+__pycache__/
+.venv/
+venv/
+.pytest_cache/
+slprj/
+.env*
+*.key
+*.pem
