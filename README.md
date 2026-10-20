@@ -7,8 +7,7 @@ using eleven optimization methods. This repository provides the implementations,
 experiment settings, saved numerical results, validation data, and figures.
 Each method has its own explanation and reproducibility guide.
 
-**Papers, manuscripts, and rendered PDF/HTML reports are not published here.**
-Results are simulation evidence, not hardware flight certification.
+
 
 ## Start here
 
