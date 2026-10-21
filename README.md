@@ -11,6 +11,8 @@ Each method has its own explanation and reproducibility guide.
 
 ## Start here
 
+- [Jupyter notebooks: full guided collection](notebooks/README.md) — system simulation, all algorithms, results, validation, figures, and source/data exploration.
+- [Open the first notebook](notebooks/00_Start_Here.ipynb)
 - [Model, controller, objective, and experimental design](docs/METHODOLOGY.md)
 - [Data formats, provenance, checks, and reproduction limits](docs/DATA.md)
 - [Five-method nominal benchmark](all%20work/30%20seed%20equal%20budget%20study/README.md)

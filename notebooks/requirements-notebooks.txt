@@ -1,0 +1,11 @@
+# Core simulation versions from the archived research environment (Python 3.13).
+numpy==2.5.3
+scipy==1.18.1
+numba==0.68.0
+cma==4.5.0
+matplotlib==3.11.2
+# Notebook authoring and execution
+jupyterlab>=4.4,<5
+ipykernel>=6.29,<8
+nbformat>=5.10,<6
+nbclient>=0.10,<1

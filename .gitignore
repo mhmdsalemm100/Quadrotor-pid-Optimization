@@ -6,6 +6,7 @@
 !*.slx
 !*.xml
 !*.md
+!*.ipynb
 !config.json
 !METHOD.json
 !requirements*.txt
@@ -45,6 +46,9 @@ results_quick/
 results_new/
 __pycache__/
 .venv/
+.venv-notebooks/
+.ipynb_checkpoints/
+notebook_outputs/
 venv/
 .pytest_cache/
 slprj/
